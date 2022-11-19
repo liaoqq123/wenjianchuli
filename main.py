@@ -1,11 +1,8 @@
 import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
-from data import DataFrame
-from search import SearchFrame
-from fill import FillFrame
-from tips import TipsFrame
-from basics import BasicsFrame
+from Process import DataFrame
+from Modify import SearchFrame
 
 
 class MainPage:
