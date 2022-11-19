@@ -1,7 +1,6 @@
 import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
-from method import method
 
 #封装页面
 class DataFrame(tk.Frame):
@@ -35,13 +34,3 @@ class DataFrame(tk.Frame):
         ttk.Button(self.displayButton, text='清空数据').pack(side=tk.LEFT, anchor=tk.N, padx=10)
         ttk.Button(self.displayButton, text='检查数据').pack(side=tk.LEFT, anchor=tk.N, padx=10)
         self.displayButton.pack(side=tk.RIGHT, pady=10)
-
-    # 数据显示页面“刷新数据”按钮方法
-    def refresh(self):
-        self.refresh_data = method.search(self, r'C:\Users\Administrator\Desktop\新建文件夹 (2)', ".xls")
-        index = 0
-        for excel_data in self.refresh_data:
-            print(excel_data)
-            self.show_title.insert('', index + 1, values=(
-                excel_data['excel'], excel_data['sheet'], excel_data['column'],
-            ))
