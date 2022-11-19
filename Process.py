@@ -2,35 +2,77 @@ import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 
-#封装页面
-class DataFrame(tk.Frame):
-    def __init__(self, window):
-        super().__init__(window)
-    #数据页面子页面
+class ProcessFrame(tk.Frame):
+    def __init__(self, root):
+        super().__init__(root)
+        self.ProcessInputPage()
+        self.ProcessShowPage()
+        self.process_show.pack()
 
 
-        self.display_page()
+    def ProcessShowPage(self):
+        self.process_show = ttk.Frame(self)
+
+        ttk.Label(self.process_show).grid(row=0, pady=10)
+
+        ttk.Label(self.process_show, text="1").grid(row=1, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=1, column=2, pady=10)
+
+        ttk.Label(self.process_show, text="2").grid(row=2, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=2, column=2, pady=10)
+
+        ttk.Label(self.process_show, text="3").grid(row=3, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=3, column=2, pady=10)
+
+        ttk.Label(self.process_show, text="4").grid(row=4, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=4, column=2, pady=10)
+
+        ttk.Label(self.process_show, text="5").grid(row=5, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=5, column=2, pady=10)
+
+        ttk.Label(self.process_show, text="6").grid(row=6, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=6, column=2, pady=10)
+
+        ttk.Label(self.process_show, text="7").grid(row=7, column=1, pady=10)
+        ttk.Label(self.process_show).grid(row=7, column=2, pady=10)
+
+        ttk.Button(self.process_show, text='修改数据', command=self.InputDataButton).grid(row=8, column=1, pady=10)
+
+    def InputDataButton(self):
+        self.process_show.pack_forget()
+        self.process_input.pack()
 
 
+    def ProcessInputPage(self):
+        self.process_input = ttk.Frame(self)
 
-    def display_page(self):
-        # 数据显示页面框
-        title_data = ('list_name', 'list_sheet_name', 'list_column', 'blank')
-        self.show_title = ttk.Treeview(self, show='headings', columns=title_data, bootstyle=INFO)
-        self.show_title.column('list_name', width=250, anchor='center')
-        self.show_title.column('list_sheet_name', width=150, anchor='center')
-        self.show_title.column('list_column', width=100, anchor='center')
-        self.show_title.column('blank', width=400, anchor='center')
-        self.show_title.heading('list_name', text='表格名称')
-        self.show_title.heading('list_sheet_name', text='分表名称')
-        self.show_title.heading('list_column', text='表格列数')
-        self.show_title.heading('blank', text='')
-        self.show_title.pack(fill=tk.BOTH, expand=True, ipady=130)
+        ttk.Label(self.process_input).grid(row=0, pady=10)
+
+        ttk.Label(self.process_input).grid(row=1, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=1, column=2, pady=10)
+
+        ttk.Label(self.process_input).grid(row=2, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=2, column=2, pady=10)
+
+        ttk.Label(self.process_input).grid(row=3, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=3, column=2, pady=10)
+
+        ttk.Label(self.process_input).grid(row=4, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=4, column=2, pady=10)
+
+        ttk.Label(self.process_input).grid(row=5, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=5, column=2, pady=10)
+
+        ttk.Label(self.process_input).grid(row=6, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=6, column=2, pady=10)
+
+        ttk.Label(self.process_input).grid(row=7, column=1, pady=10)
+        ttk.Entry(self.process_input).grid(row=7, column=2, pady=10)
+
+        ttk.Button(self.process_input, text='确认修改', command=self.DefineDataButton).grid(row=8, column=1, pady=10)
+
+    def DefineDataButton(self):
+        self.process_show.pack()
+        self.process_input.pack_forget()
 
 
-        #数据显示页面底部按钮
-        self.displayButton = ttk.Frame(self)
-        ttk.Button(self.displayButton, text='刷新数据', command=self.refresh).pack(side=tk.LEFT, anchor=tk.N, padx=10)
-        ttk.Button(self.displayButton, text='清空数据').pack(side=tk.LEFT, anchor=tk.N, padx=10)
-        ttk.Button(self.displayButton, text='检查数据').pack(side=tk.LEFT, anchor=tk.N, padx=10)
-        self.displayButton.pack(side=tk.RIGHT, pady=10)

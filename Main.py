@@ -1,8 +1,9 @@
 import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
-from Process import DataFrame
-from Modify import SearchFrame
+from Process import ProcessFrame
+from Modify import ModifyFrame
+
 
 
 class MainPage:
@@ -13,6 +14,11 @@ class MainPage:
         self.top()
 
     def top(self):
+        #封装页面导入
+        self.Process = ProcessFrame(self.window)
+        self.Process.pack()
+        self.Modify = ModifyFrame(self.window)
+
         #顶部栏创建
         menubar = ttk.Menu(self.window)
         menubar.add_command(label='文件处理', command=self.ProcessPage)
@@ -20,11 +26,13 @@ class MainPage:
         self.window['menu'] = menubar
 
     def ProcessPage(self):
-        print("niu")
+        self.Process.pack()
+        self.Modify.pack_forget()
 
 
     def ModifyPage(self):
-        print("bi")
+        self.Process.pack_forget()
+        self.Modify.pack()
 
 
 if __name__ == '__main__':
