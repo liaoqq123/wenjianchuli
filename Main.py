@@ -19,11 +19,11 @@ class MainPage:
         self.Process.pack()
         self.Modify = ModifyFrame(self.window)
 
-        #顶部栏创建
-        menubar = ttk.Menu(self.window)
-        menubar.add_command(label='文件处理', command=self.ProcessPage)
-        menubar.add_command(label='文件修改', command=self.ModifyPage)
-        self.window['menu'] = menubar
+        # #顶部栏创建
+        # menubar = ttk.Menu(self.window)
+        # menubar.add_command(label='文件处理', command=self.ProcessPage)
+        # menubar.add_command(label='文件修改', command=self.ModifyPage)
+        # self.window['menu'] = menubar
 
     def ProcessPage(self):
         self.Process.pack()
