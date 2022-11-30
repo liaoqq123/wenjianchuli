@@ -9,6 +9,16 @@ class ProcessFrame(tk.Frame):
         self.ProcessShowPage()
         self.process_show.pack()
 
+        self.address = tk.IntVar()
+        self.excel = tk.IntVar()
+        self.start = tk.IntVar()
+        self.target = tk.IntVar()
+
+        self.address_data = 0
+        self.excel_data = 0
+        self.start_data = 0
+        self.target_data = 0
+
 
     #数据及操作页面显示
     def ProcessShowPage(self):
@@ -18,25 +28,25 @@ class ProcessFrame(tk.Frame):
         self.address_show = tk.Frame(self.process_show)
         self.address_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.address_show, text="   文件地址:").pack(side=tk.LEFT)
-        ttk.Label(self.address_show, text="F:\GIT\doc\打包文件").pack(side=tk.RIGHT)
+        ttk.Label(self.address_show, text=self.address_data).pack(side=tk.RIGHT)
 
         #表格名称显示
         self.excel_show = tk.Frame(self.process_show)
         self.excel_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.excel_show, text="   表格名称:").pack(side=tk.LEFT)
-        ttk.Label(self.excel_show, text="数据表").pack(side=tk.RIGHT)
+        ttk.Label(self.excel_show, text=self.excel_data).pack(side=tk.RIGHT)
 
         #起始数据列显示
         self.start_show = tk.Frame(self.process_show)
         self.start_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.start_show, text="起始数据列:").pack(side=tk.LEFT)
-        ttk.Label(self.start_show, text="11").pack(side=tk.RIGHT)
+        ttk.Label(self.start_show, text=self.start_data).pack(side=tk.RIGHT)
 
         #目标数据列显示
         self.target_show = tk.Frame(self.process_show)
         self.target_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.target_show, text="目标数据列:").pack(side=tk.LEFT)
-        ttk.Label(self.target_show, text="22").pack(side=tk.RIGHT)
+        ttk.Label(self.target_show, text=self.target_data).pack(side=tk.RIGHT)
 
         #修改数据显示
         self.modify_show = tk.Frame(self.process_show)
@@ -56,6 +66,11 @@ class ProcessFrame(tk.Frame):
         self.process_show.pack_forget()
         self.process_input.pack()
 
+        self.address.set(self.address_data)
+        self.excel.set(self.excel_data)
+        self.start.set(self.start_data)
+        self.target.set(self.target_data)
+
 
     def ProcessInputPage(self):
         self.process_input = ttk.Frame(self)
@@ -64,25 +79,25 @@ class ProcessFrame(tk.Frame):
         self.address_show = tk.Frame(self.process_input)
         self.address_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.address_show, text="   文件地址:").pack(side=tk.LEFT)
-        ttk.Entry(self.address_show, text="F:\GIT\doc\打包文件").pack(side=tk.RIGHT)
+        ttk.Entry(self.address_show, text=self.address).pack(side=tk.RIGHT)
 
         #表格名称输入
         self.excel_show = tk.Frame(self.process_input)
         self.excel_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.excel_show, text="   表格名称:").pack(side=tk.LEFT)
-        ttk.Entry(self.excel_show, text="数据表").pack(side=tk.RIGHT)
+        ttk.Entry(self.excel_show, text=self.excel).pack(side=tk.RIGHT)
 
         #起始数据列输入
         self.start_show = tk.Frame(self.process_input)
         self.start_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.start_show, text="起始数据列:").pack(side=tk.LEFT)
-        ttk.Entry(self.start_show, text="11").pack(side=tk.RIGHT)
+        ttk.Entry(self.start_show, text=self.start).pack(side=tk.RIGHT)
 
         #目标数据列输入
         self.target_show = tk.Frame(self.process_input)
         self.target_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.target_show, text="目标数据列:").pack(side=tk.LEFT)
-        ttk.Entry(self.target_show, text="22").pack(side=tk.RIGHT)
+        ttk.Entry(self.target_show, text=self.target).pack(side=tk.RIGHT)
 
         #确认修改按钮
         self.button_show = tk.Frame(self.process_input)
@@ -92,5 +107,11 @@ class ProcessFrame(tk.Frame):
     def DefineDataButton(self):
         self.process_show.pack()
         self.process_input.pack_forget()
+
+        self.address_data = self.address.get()
+        self.excel_data = self.excel.get()
+        self.start_data = self.start.get()
+        self.target_data = self.target.get()
+
 
 
