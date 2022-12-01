@@ -5,19 +5,20 @@ from ttkbootstrap.constants import *
 class ProcessFrame(tk.Frame):
     def __init__(self, root):
         super().__init__(root)
-        self.ProcessInputPage()
-        self.ProcessShowPage()
-        self.process_show.pack()
 
-        self.address = tk.IntVar()
-        self.excel = tk.IntVar()
+        self.address = tk.StringVar()
+        self.excel = tk.StringVar()
         self.start = tk.IntVar()
         self.target = tk.IntVar()
 
-        self.address_data = 0
-        self.excel_data = 0
-        self.start_data = 0
-        self.target_data = 0
+        self.address_data = ""
+        self.excel_data = ""
+        self.start_data = ""
+        self.target_data = ""
+
+        self.ProcessInputPage()
+        self.ProcessShowPage()
+
 
 
     #数据及操作页面显示
@@ -61,15 +62,18 @@ class ProcessFrame(tk.Frame):
         ttk.Button(self.button_show, text='文件移动', command=self.InputDataButton).pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件改名', command=self.InputDataButton).pack(side=tk.LEFT, padx=5)
 
+        self.process_show.pack()
+
 
     def InputDataButton(self):
-        self.process_show.pack_forget()
-        self.process_input.pack()
 
         self.address.set(self.address_data)
         self.excel.set(self.excel_data)
         self.start.set(self.start_data)
         self.target.set(self.target_data)
+
+        self.process_show.pack_forget()
+        self.process_input.pack()
 
 
     def ProcessInputPage(self):
@@ -105,13 +109,19 @@ class ProcessFrame(tk.Frame):
         ttk.Button(self.button_show, text='确认修改', command=self.DefineDataButton).pack(side=tk.LEFT, padx=5)
 
     def DefineDataButton(self):
-        self.process_show.pack()
-        self.process_input.pack_forget()
+        if isinstance(self.address.get(), str) == True\
+             and isinstance(self.address.get(), str) == True\
+             and isinstance(self.address.get(), int) == True\
+             and isinstance(self.address.get(), int) == True:
+            self.address_data = self.address.get()
+            self.excel_data = self.excel.get()
+            self.start_data = self.start.get()
+            self.target_data = self.target.get()
 
-        self.address_data = self.address.get()
-        self.excel_data = self.excel.get()
-        self.start_data = self.start.get()
-        self.target_data = self.target.get()
-
+            self.ProcessShowPage()
+            self.process_show.pack()
+            self.process_input.pack_forget()
+        else:
+            print("别瞎JB输入")
 
 
