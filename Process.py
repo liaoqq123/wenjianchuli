@@ -1,6 +1,7 @@
 import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
+from tkinter import messagebox
 
 class ProcessFrame(tk.Frame):
     def __init__(self, root):
@@ -109,10 +110,17 @@ class ProcessFrame(tk.Frame):
         ttk.Button(self.button_show, text='确认修改', command=self.DefineDataButton).pack(side=tk.LEFT, padx=5)
 
     def DefineDataButton(self):
-        if isinstance(self.address.get(), str) == True\
-             and isinstance(self.address.get(), str) == True\
-             and isinstance(self.address.get(), int) == True\
-             and isinstance(self.address.get(), int) == True:
+        if isinstance(self.address.get(), str) != True\
+             or isinstance(self.excel.get(), str) != True\
+             or isinstance(self.start.get(), int) != True\
+             or isinstance(self.target.get(), int) != True:
+            messagebox.showwarning(title="警告", message="别NM瞎JB输入")
+            
+        elif isinstance(self.address.get(), str) == True\
+              and isinstance(self.excel.get(), str) == True\
+              and isinstance(self.start.get(), int) == True\
+              and isinstance(self.target.get(), int) == True:
+
             self.address_data = self.address.get()
             self.excel_data = self.excel.get()
             self.start_data = self.start.get()
@@ -121,7 +129,6 @@ class ProcessFrame(tk.Frame):
             self.ProcessShowPage()
             self.process_show.pack()
             self.process_input.pack_forget()
-        else:
-            print("别瞎JB输入")
+
 
 
