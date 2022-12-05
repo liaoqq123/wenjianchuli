@@ -115,7 +115,7 @@ class ProcessFrame(tk.Frame):
              or isinstance(self.start.get(), int) != True\
              or isinstance(self.target.get(), int) != True:
             messagebox.showwarning(title="警告", message="别NM瞎JB输入")
-            
+
         elif isinstance(self.address.get(), str) == True\
               and isinstance(self.excel.get(), str) == True\
               and isinstance(self.start.get(), int) == True\
