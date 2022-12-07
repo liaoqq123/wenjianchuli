@@ -1,0 +1,5119 @@
+[
+    {
+      "name": "11000111",
+      "singlePack": 0,
+      "id": 11000111,
+      "effects": []
+    },
+    {
+      "name": "11001101",
+      "singlePack": 0,
+      "id": 11001101,
+      "effects": [
+        "11001101_attack01",
+        "11001101_skill01",
+        "11001101_skill01_bisha",
+        "11001101_skill01_tips",
+        "11001101_passive01_01",
+        "11001101_passive01_02"
+      ]
+    },
+    {
+      "name": "11001201",
+      "singlePack": 0,
+      "id": 11001201,
+      "effects": [
+        "11001201_skill01",
+        "11001201_combo01",
+        "00000000_attack09",
+        "11001201_skill01_bisha",
+        "11001201_skill01_tips"
+      ]
+    },
+    {
+      "name": "11001301",
+      "singlePack": 0,
+      "id": 11001301,
+      "effects": [
+        "00000000_attack13",
+        "11001301_skill02",
+        "11001301_skill05",
+        "11001301_skill03",
+        "11001301_skill06",
+        "11001301_skill04",
+        "11001301_skill07",
+        "11001301_skill01_tips",
+        "11001301_combo01"
+      ]
+    },
+    {
+      "name": "11001401",
+      "singlePack": 0,
+      "id": 11001401,
+      "effects": [
+        "11001401_attack02",
+        "11001401_attack01",
+        "11001401_skill01",
+        "11001401_skill01_zhaohuan",
+        "11001401_skill01_cj",
+        "11001401_skill01_juqi",
+        "11001401_skill01_baokai",
+        "11001401_skill01_canliu",
+        "11001401_skill01_tips_qs",
+        "11001401_skill01_tips",
+        "11001401_skill01_tips_hc",
+        "11001401_combo01",
+        "11001402_attack02"
+      ]
+    },
+    {
+      "name": "11001501",
+      "singlePack": 0,
+      "id": 11001501,
+      "effects": [
+        "11001501_attack01",
+        "11001501_skill01",
+        "11001501_skill01_bisha",
+        "11001501_skill01_tips",
+        "11001501_combo01"
+      ]
+    },
+    {
+      "name": "11001601",
+      "singlePack": 0,
+      "id": 11001601,
+      "effects": [
+        "11001601_skill01_2",
+        "11001601_skill01",
+        "11001601_skill02",
+        "11001601_skill03",
+        "11001601_skill01_2_bisha",
+        "11001601_skill01_tips",
+        "11001601_skill01_bisha",
+        "11001601_skill03_bisha",
+        "11001601_attack01",
+        "11001601_attack02",
+        "11001601_attack03",
+        "11001601_combo01"
+      ]
+    },
+    {
+      "name": "11001701",
+      "singlePack": 0,
+      "id": 11001701,
+      "effects": [
+        "11001701_passive01",
+        "11001701_attack01",
+        "11001701_attack01_01",
+        "11001701_skill01",
+        "11001701_skill01_bisha",
+        "11001701_skill01_tips",
+        "11001701_combo01",
+        "11001701_passive02_hit01",
+        "11001701_passive02"
+      ]
+    },
+    {
+      "name": "11001801",
+      "singlePack": 0,
+      "id": 11001801,
+      "effects": [
+        "11001801_attack01",
+        "11001801_attack02",
+        "11001801_attack03",
+        "11001801_skill01",
+        "11001801_skill01_LXW",
+        "11001801_skill01_Glow",
+        "11001801_skill01_shouji",
+        "11001801_skill01_shuaping",
+        "11001801_skill01_jiewei",
+        "11001801_skill01_LXW_2",
+        "11001801_skill01_LXW_3",
+        "11001801_skill01_tips",
+        "11001801_combo01"
+      ]
+    },
+    {
+      "name": "11001901",
+      "singlePack": 0,
+      "id": 11001901,
+      "effects": [
+        "11001901_attack01",
+        "11001901_skill01",
+        "11001901_skill01_01",
+        "11001901_skill01_02",
+        "11001901_skill01_02_01",
+        "11001901_skill01_03",
+        "11001901_skill01_04_01",
+        "11001901_skill01_04_02",
+        "11001901_skill01_04_03",
+        "11001901_skill01_04_04",
+        "11001901_skill01_05",
+        "11001901_skill01_tips",
+        "11001901_combo01",
+        "11001901_passive03",
+        "11001901_passive01"
+      ]
+    },
+    {
+      "name": "11002101",
+      "singlePack": 0,
+      "id": 11002101,
+      "effects": [
+        "11002101_skill01",
+        "11002101_skill01_front",
+        "11002101_skill01_tips",
+        "11002101_combo01"
+      ]
+    },
+    {
+      "name": "11002201",
+      "singlePack": 0,
+      "id": 11002201,
+      "effects": [
+        "11002201_skill01",
+        "11002201_skill01_front",
+        "11002101_combo01",
+        "11002201_skill01_bisha",
+        "11002201_skill01_bisha_front",
+        "11002201_skill01_tips"
+      ]
+    },
+    {
+      "name": "11002301",
+      "singlePack": 0,
+      "id": 11002301,
+      "effects": [
+        "11002301_attack01",
+        "11002301_attack02",
+        "11002301_attack03",
+        "11002301_skill01",
+        "11002301_skill01_2",
+        "11002301_skill02",
+        "11002301_skill02_1",
+        "11002301_skill02_tips",
+        "11002301_combo01_01",
+        "11002301_passive01"
+      ]
+    },
+    {
+      "name": "11002401",
+      "singlePack": 0,
+      "id": 11002401,
+      "effects": [
+        "11002401_attack01",
+        "11002401_attack02",
+        "11002401_attack03",
+        "11002401_skill01_02_feather",
+        "11002401_skill01_01_qs",
+        "11002401_skill01_03_main",
+        "11002401_skill01_03_main_spine",
+        "11002401_skill01_04_eye",
+        "11002401_skill01_05_boom",
+        "11002401_skill01_05_boom_bg",
+        "11002401_skill01_05_boom_spine",
+        "11002401_skill01_06_end",
+        "11002401_skill01_tips",
+        "11002401_combo01",
+        "11002401_passive01",
+        "11002401_passive02"
+      ]
+    },
+    {
+      "name": "11002501",
+      "singlePack": 0,
+      "id": 11002501,
+      "effects": [
+        "11002501_skill01",
+        "11002501_skill01_bisha",
+        "11002501_skill01_tips",
+        "11002501_combo"
+      ]
+    },
+    {
+      "name": "11002601",
+      "singlePack": 0,
+      "id": 11002601,
+      "effects": []
+    },
+    {
+      "name": "11002701",
+      "singlePack": 0,
+      "id": 11002701,
+      "effects": [
+        "1102701_combo01",
+        "11002701_attack01",
+        "11002701_attack02",
+        "11002701_attack03",
+        "11002701_skill01_kaitou",
+        "11002701_skill01_gongjian",
+        "11002701_skill01_changjing",
+        "11002701_skill01_baozha",
+        "11002701_skill01_jiewei",
+        "11002701_skill01_tips",
+        "11002701_combo01",
+        "11002701_passive02"
+      ]
+    },
+    {
+      "name": "11002801",
+      "singlePack": 0,
+      "id": 11002801,
+      "effects": [
+        "11002801_attack02",
+        "11002801_attack03",
+        "11002801_skill01",
+        "11002801_skill01_2",
+        "11002801_skill01_bisha",
+        "11002801_skill01_tips",
+        "11002801_combo01",
+        "11002801_passive01"
+      ]
+    },
+    {
+      "name": "11002901",
+      "singlePack": 0,
+      "id": 11002901,
+      "effects": [
+        "11002901_attack01",
+        "11002901_attack02",
+        "11002901_attack03",
+        "11002901_skill01",
+        "11002901_skill01_bisha",
+        "11002901_skill01_tips",
+        "11002901_combo01"
+      ]
+    },
+    {
+      "name": "11003101",
+      "singlePack": 0,
+      "id": 11003101,
+      "effects": [
+        "11003101_skill01_tips",
+        "11003101_combo02"
+      ]
+    },
+    {
+      "name": "11003201",
+      "singlePack": 0,
+      "id": 11003201,
+      "effects": [
+        "11003201_attack01",
+        "11023101_skill01_01",
+        "11023101_skill01_02",
+        "21003205_skill01_tips",
+        "11003201_skill01",
+        "00000000_skill01_03"
+      ]
+    },
+    {
+      "name": "11003301",
+      "singlePack": 0,
+      "id": 11003301,
+      "effects": []
+    },
+    {
+      "name": "11003401",
+      "singlePack": 0,
+      "id": 11003401,
+      "effects": [
+        "11003201_attack01",
+        "11003401_skill01",
+        "11003401_skill02",
+        "11003401_skill01_bisha",
+        "11003401_skill01_tips",
+        "11003401_combo01"
+      ]
+    },
+    {
+      "name": "11003501",
+      "singlePack": 0,
+      "id": 11003501,
+      "effects": [
+        "11003501_skill01_00",
+        "11003501_skill01_001",
+        "11003501_skill01_01",
+        "11003501_skill01_02",
+        "11003501_skill01_03",
+        "11003501_skill01_tips",
+        "11003501_combo01",
+        "Halo_haian_1"
+      ]
+    },
+    {
+      "name": "11004101",
+      "singlePack": 0,
+      "id": 11004101,
+      "effects": [
+        "11004101_attack01",
+        "11004101_attack02",
+        "11004101_skill01_2",
+        "11004101_skill01_bisha",
+        "11004101_skill01_tips",
+        "11004101_combo01"
+      ]
+    },
+    {
+      "name": "11004201",
+      "singlePack": 0,
+      "id": 11004201,
+      "effects": [
+        "00000000_attack09_2",
+        "11004201_attack03",
+        "11004201_skill01_01",
+        "11004201_skill01_bisha",
+        "11004201_skill01_tips",
+        "11004201_combo01"
+      ]
+    },
+    {
+      "name": "11004301",
+      "singlePack": 0,
+      "id": 11004301,
+      "effects": [
+        "11004301_attack01_hit",
+        "11004301_attack01",
+        "11004301_attack02",
+        "11004301_attack03",
+        "11004301_skill05",
+        "11004301_skill01_hit",
+        "11004301_skill05_bisha",
+        "11004301_skill01_tips",
+        "11004301_combo02",
+        "11004301_combo01"
+      ]
+    },
+    {
+      "name": "11004401",
+      "singlePack": 0,
+      "id": 11004401,
+      "effects": [
+        "11004401_attack01_01",
+        "11004401_attack01",
+        "11004401_skill01",
+        "11004401_skill01_03",
+        "11004401_skill01_04",
+        "11004401_skill01_01",
+        "11004401_skill01_01_01",
+        "11004401_skill01_01_02",
+        "11004401_skill01_02",
+        "11004401_skill01_tips",
+        "11004401_combo01"
+      ]
+    },
+    {
+      "name": "11005101",
+      "singlePack": 0,
+      "id": 11005101,
+      "effects": [
+        "11005101_attack01",
+        "11005101_skill01_01",
+        "11005101_skill01_02",
+        "11005101_skill01_02_front",
+        "11005101_skill01_02_bisha",
+        "11005101_skill01_tips",
+        "11005101_combo01",
+        "11005101_passive01"
+      ]
+    },
+    {
+      "name": "11005201",
+      "singlePack": 0,
+      "id": 11005201,
+      "effects": [
+        "11005201_attack01",
+        "11005201_attack02",
+        "11005201_attack03",
+        "11005201_skill01",
+        "11005201_skill01_bisha",
+        "11005201_skill01_tips",
+        "11005201_combo01",
+        "11005201_passive01",
+        "11005201_passive02"
+      ]
+    },
+    {
+      "name": "11006101",
+      "singlePack": 0,
+      "id": 11006101,
+      "effects": [
+        "11006101_attack01",
+        "11006101_attack02",
+        "11006101_skill01",
+        "11006101_skill01_front",
+        "11006101_skill01_hit",
+        "11006101_skill01_bisha",
+        "11006101_skill01_bisha_front",
+        "11006101_skill01_tips",
+        "11006101_combo01"
+      ]
+    },
+    {
+      "name": "11006201",
+      "singlePack": 0,
+      "id": 11006201,
+      "effects": [
+        "11006201_attack03_hit",
+        "11006201_skill01",
+        "11006201_skill01_bisha",
+        "11006201_skill01_tips",
+        "11006201_combo01",
+        "11006201_skill03"
+      ]
+    },
+    {
+      "name": "11006301",
+      "singlePack": 0,
+      "id": 11006301,
+      "effects": [
+        "11006301_attack03",
+        "11006301_skill01",
+        "11006301_skill01_1",
+        "11006301_skill01_bisha",
+        "11006301_skill01_tips",
+        "11006301_combo01",
+        "00000000_skill01_03"
+      ]
+    },
+    {
+      "name": "11007101",
+      "singlePack": 0,
+      "id": 11007101,
+      "effects": [
+        "11007101_skill01",
+        "11007101_skill01_front",
+        "11007101_skill01_bisha",
+        "11007101_skill01_bisha_front",
+        "11007101_skill01_tips",
+        "11007101_combo02"
+      ]
+    },
+    {
+      "name": "11007201",
+      "singlePack": 0,
+      "id": 11007201,
+      "effects": [
+        "11007201_attack01",
+        "11007201_attack03",
+        "11007201_skill01",
+        "11007101_skill01_front",
+        "11007201_skill01_bisha",
+        "11007201_skill01_tips",
+        "11007201_combo01"
+      ]
+    },
+    {
+      "name": "11007301",
+      "singlePack": 0,
+      "id": 11007301,
+      "effects": [
+        "11007301_attack01",
+        "11007301_attack03",
+        "11007301_skill01",
+        "11007301_skill01_bisha",
+        "11007301_skill01_tips",
+        "11007301_combo01",
+        "11007301_skill06",
+        "11007301_skill06_hit"
+      ]
+    },
+    {
+      "name": "11008101",
+      "singlePack": 0,
+      "id": 11008101,
+      "effects": [
+        "11008101_skill01",
+        "11008101_skill01_front",
+        "11008101_skill01_bisha",
+        "11008101_skill01_bisha_front",
+        "11008101_skill01_tips",
+        "11008101_combo01"
+      ]
+    },
+    {
+      "name": "11008201",
+      "singlePack": 0,
+      "id": 11008201,
+      "effects": [
+        "11008201_skill02",
+        "11008201_skill01",
+        "11008201_skill01_bisha_01",
+        "11008201__skill01_tips",
+        "11008201_skill01_bisha_02",
+        "11008201_combo01"
+      ]
+    },
+    {
+      "name": "11009101",
+      "singlePack": 0,
+      "id": 11009101,
+      "effects": [
+        "11009101_attack03",
+        "11009101_skill01",
+        "11009101_skill01_tips",
+        "11009101_combo01"
+      ]
+    },
+    {
+      "name": "11009201",
+      "singlePack": 0,
+      "id": 11009201,
+      "effects": [
+        "11009201_attack01",
+        "11009201_attack02",
+        "11009201_attack03",
+        "11009201_skill01_01",
+        "11009201_skill01_02",
+        "11009201_skill01_bisha",
+        "11009201_skill01_tips",
+        "11009201_combo01"
+      ]
+    },
+    {
+      "name": "11010101",
+      "singlePack": 0,
+      "id": 11010101,
+      "effects": [
+        "11010101_skill01",
+        "11010101_skill01_tips",
+        "11010101_skill01_bisha",
+        "11010101_combo01",
+        "11010101_skill02",
+        "11010101_skill02_tips",
+        "11010101_skill02_bisha"
+      ]
+    },
+    {
+      "name": "11010201",
+      "singlePack": 0,
+      "id": 11010201,
+      "effects": [
+        "11010201_attack01",
+        "11010201_attack02",
+        "11010201_attack03",
+        "11010201_skill01",
+        "11010201_skill02",
+        "11010201_skill01_tips",
+        "11010201_combo01"
+      ]
+    },
+    {
+      "name": "11011101",
+      "singlePack": 0,
+      "id": 11011101,
+      "effects": [
+        "11011101_attack01",
+        "11011101_attack02",
+        "11011101_attack03",
+        "11011101_skill01",
+        "11011101_skill01_tips",
+        "11011101_combo01",
+        "11011101_beidong01"
+      ]
+    },
+    {
+      "name": "11011201",
+      "singlePack": 0,
+      "id": 11011201,
+      "effects": [
+        "11011201_attack01",
+        "11011201_attack02",
+        "11011201_attack03",
+        "11011201_skill01",
+        "11011201_skill02",
+        "11011201_skill01_tips",
+        "11011201_combo01"
+      ]
+    },
+    {
+      "name": "11011301",
+      "singlePack": 0,
+      "id": 11011301,
+      "effects": [
+        "11011301_attack01",
+        "11011301_attack02",
+        "11011301_attack03",
+        "11011301_skill01",
+        "11011301_skill01_hit",
+        "11011301_skill01_tips",
+        "11011301_combo01",
+        "11011301_combo02"
+      ]
+    },
+    {
+      "name": "11012101",
+      "singlePack": 0,
+      "id": 11012101,
+      "effects": [
+        "11012101_skill01_01",
+        "11012101_skill01_bisha",
+        "11012101_skill01_tips",
+        "11012101_combo01",
+        "11012101_passive01"
+      ]
+    },
+    {
+      "name": "11012201",
+      "singlePack": 0,
+      "id": 11012201,
+      "effects": [
+        "11012201_attack01",
+        "11012201_attack02",
+        "11012201_attack03",
+        "11012201_skill01",
+        "11012201_skill01_bisha",
+        "11012201_skill01_tips",
+        "11012201_combo01",
+        "11012201_passive01"
+      ]
+    },
+    {
+      "name": "11012301",
+      "singlePack": 0,
+      "id": 11012301,
+      "effects": [
+        "19041001_skill01_01",
+        "11005101_skill01_02",
+        "11005101_skill01_02_front",
+        "11005101_skill01_02_bisha",
+        "11012301_skill01_tips",
+        "11012101_combo01",
+        "11012101_passive01"
+      ]
+    },
+    {
+      "name": "11012401",
+      "singlePack": 0,
+      "id": 11012401,
+      "effects": [
+        "11012401_attack01",
+        "11012401_attack02",
+        "11012401_attack03",
+        "11012401_skill01",
+        "11012401_skill01_bisha",
+        "11012401_skill01_tips",
+        "11012401_combo01",
+        "11012401_passive 01",
+        "11012201_passive01"
+      ]
+    },
+    {
+      "name": "11012501",
+      "singlePack": 0,
+      "id": 11012501,
+      "effects": [
+        "11012501_attack01",
+        "11012501_attack02",
+        "11012501_attack03",
+        "11012501_skill01_hand",
+        "11012501_skill01_01",
+        "11012501_skill01_02",
+        "11012501_skill01_tips",
+        "11012501_combo01",
+        "11005201_passive02",
+        "11012501_passive01"
+      ]
+    },
+    {
+      "name": "11013101",
+      "singlePack": 0,
+      "id": 11013101,
+      "effects": [
+        "11013101_attack01",
+        "11013101_attack02",
+        "11013101_attack03",
+        "11013101_skill01",
+        "11013101_skill01_front",
+        "11013101_skill01_tips",
+        "11013101_combo01"
+      ]
+    },
+    {
+      "name": "11013201",
+      "singlePack": 0,
+      "id": 11013201,
+      "effects": [
+        "11013201_attack01",
+        "11013201_attack01_hit",
+        "11013201_skill01",
+        "11013201_skill01_tips",
+        "11013201_combo01"
+      ]
+    },
+    {
+      "name": "11013301",
+      "singlePack": 0,
+      "id": 11013301,
+      "effects": [
+        "11013301_attack01",
+        "11013301_skill02_qishou",
+        "11013301_skill02_baofa",
+        "11013301_skill02_baofa_2",
+        "11013301_skill02_jiewei",
+        "11013301_skill02_tips",
+        "11013301_skill01_qishou",
+        "11013301_skill01_guodu_1",
+        "11013301_skill01_guodu",
+        "11013301_skill01_jzt",
+        "11013301_skill01_yasuo",
+        "11013301_skill01_baokai",
+        "11013301_skill01_woailuo",
+        "11013301_skill01_zz",
+        "11013301_skill01_tips",
+        "11013301_combo01"
+      ]
+    },
+    {
+      "name": "11014101",
+      "singlePack": 0,
+      "id": 11014101,
+      "effects": [
+        "11014101_skill01",
+        "11014101_skill01_bisha",
+        "11014101_skill01_tips",
+        "11014101_combo01"
+      ]
+    },
+    {
+      "name": "11014201",
+      "singlePack": 0,
+      "id": 11014201,
+      "effects": [
+        "11014201_attack01",
+        "11014201_attack02",
+        "11014201_attack03",
+        "11014201_skill01",
+        "11014201_skill01_bisha",
+        "11014201_skill01_tips",
+        "11014201_combo01"
+      ]
+    },
+    {
+      "name": "11014301",
+      "singlePack": 0,
+      "id": 11014301,
+      "effects": [
+        "11014101_skill01",
+        "11014101_skill01_bisha",
+        "11014301_skill01_tips",
+        "11014101_combo01"
+      ]
+    },
+    {
+      "name": "11014401",
+      "singlePack": 0,
+      "id": 11014401,
+      "effects": [
+        "11014201_attack01",
+        "11014201_attack02",
+        "11014201_attack03",
+        "11014401_skill01",
+        "11014401_skill01_bg",
+        "11014401_skill01_zhuti",
+        "11014401_skill01_feng",
+        "11014401_skill01_end",
+        "11014401_skill01_tips",
+        "11014201_combo01",
+        "11014101_combo01"
+      ]
+    },
+    {
+      "name": "11015101",
+      "singlePack": 0,
+      "id": 11015101,
+      "effects": [
+        "11015101_attack01",
+        "11015101_skill01_tips",
+        "11015101_combo01"
+      ]
+    },
+    {
+      "name": "11015102",
+      "singlePack": 0,
+      "id": 11015102,
+      "effects": []
+    },
+    {
+      "name": "11015201",
+      "singlePack": 0,
+      "id": 11015201,
+      "effects": [
+        "11015201_attack01",
+        "11015201_attack02",
+        "11015201_skill01",
+        "11015201_skill01_bisha",
+        "11015201_skill01_tips",
+        "11015201_combo02",
+        "11015201_combo01",
+        "11015201_combo01_hit"
+      ]
+    },
+    {
+      "name": "11015301",
+      "singlePack": 0,
+      "id": 11015301,
+      "effects": [
+        "11015301_attack01",
+        "11015301_attack01_hit",
+        "11015301_skill01",
+        "11015301_skill01_1",
+        "11015301_skill01_2",
+        "11015301_skill01_tips",
+        "11015301_combo"
+      ]
+    },
+    {
+      "name": "11015302",
+      "singlePack": 0,
+      "id": 11015302,
+      "effects": []
+    },
+    {
+      "name": "11016101",
+      "singlePack": 0,
+      "id": 11016101,
+      "effects": [
+        "11016101_attack01",
+        "11016101_attack02",
+        "11016101_attack03",
+        "11016101_skill01",
+        "11016101_skill02",
+        "11016101_skill03",
+        "11016101_skill01_bisha",
+        "11016101_skill01_tips",
+        "11016101_skill02_tips",
+        "11016101_skill03_bisha",
+        "11016101_skill03_tips",
+        "11016101_combo01",
+        "11016101_combo03"
+      ]
+    },
+    {
+      "name": "11016201",
+      "singlePack": 0,
+      "id": 11016201,
+      "effects": [
+        "11016201_attack01",
+        "11016201_attack01_hit",
+        "11016201_skill01",
+        "11016201_skill01_2",
+        "11016201_skill01_tips",
+        "11016101_combo01"
+      ]
+    },
+    {
+      "name": "11016301",
+      "singlePack": 0,
+      "id": 11016301,
+      "effects": [
+        "11016301_skill01_01",
+        "11016301_skill01_02",
+        "11016301_skill01_03",
+        "11016301_skill01_04",
+        "11016301_skill01_01_bisha",
+        "11016301_skill01_tips",
+        "11016301_combo01"
+      ]
+    },
+    {
+      "name": "11016401",
+      "singlePack": 0,
+      "id": 11016401,
+      "effects": [
+        "11016401_attack01",
+        "11016401_attack02",
+        "11016401_attack03",
+        "11016401_skill01_01",
+        "11016401_skill01",
+        "11016401_skill01_02",
+        "11016401_skill01_zz",
+        "11016401_skill01_tips",
+        "11016401_combo01",
+        "00000000_buff_commonup_01"
+      ]
+    },
+    {
+      "name": "11016501",
+      "singlePack": 0,
+      "id": 11016501,
+      "effects": [
+        "11016101_attack03",
+        "11016501_skill01",
+        "11016501_skill01_bisha",
+        "11016501_skill01_tips",
+        "11016501_combo1",
+        "19006101_skill02",
+        "11016501_passive01"
+      ]
+    },
+    {
+      "name": "11016601",
+      "singlePack": 0,
+      "id": 11016601,
+      "effects": [
+        "11016601_attack01",
+        "11016601_attack02",
+        "11016601_attack03",
+        "11016601_skill01_tips",
+        "11016601_combo01"
+      ]
+    },
+    {
+      "name": "11016701",
+      "singlePack": 0,
+      "id": 11016701,
+      "effects": [
+        "11016701_attack01",
+        "11016701_attack02",
+        "11016701_attack03",
+        "11016701_skill01",
+        "11016701_skill01_qs",
+        "11016701_skill01_1",
+        "11016701_skill01_2",
+        "11016701_skill01_boom",
+        "11016701_skill01_boom_1",
+        "11016701_skill01_bg",
+        "11016701_skill01_end",
+        "11016701_skill01_tips",
+        "11016701_combo01"
+      ]
+    },
+    {
+      "name": "11017101",
+      "singlePack": 0,
+      "id": 11017101,
+      "effects": [
+        "11017101_attack01",
+        "11017101_attack02",
+        "11017101_attack03",
+        "11017101_skill01",
+        "11017101_skill01_bisha",
+        "11017101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11017201",
+      "singlePack": 0,
+      "id": 11017201,
+      "effects": [
+        "11017101_attack01",
+        "11017101_attack02",
+        "11017101_attack03",
+        "11017201_skill01",
+        "11017201_skill02",
+        "11017201_skill01_tips",
+        "11017201_combo01"
+      ]
+    },
+    {
+      "name": "11017301",
+      "singlePack": 0,
+      "id": 11017301,
+      "effects": [
+        "11017101_attack01",
+        "11017101_attack02",
+        "11017101_attack03",
+        "11017301_attack04",
+        "11017301_skill01",
+        "11017301_skill01_tips",
+        "11017301_combo01",
+        "Halo_shamo"
+      ]
+    },
+    {
+      "name": "11018101",
+      "singlePack": 0,
+      "id": 11018101,
+      "effects": [
+        "11018101_skill01",
+        "11018301_skill01_hit",
+        "11018101_skill01_bisha",
+        "11018101_skill01_tips",
+        "11018101_combo01",
+        "11018101_passive01"
+      ]
+    },
+    {
+      "name": "11018301",
+      "singlePack": 0,
+      "id": 11018301,
+      "effects": [
+        "11018301_attack01",
+        "11018301_skill01",
+        "11018301_skill01_hit",
+        "11018301_skill01_tips",
+        "11018301_skill01_bisha",
+        "11018101_combo01"
+      ]
+    },
+    {
+      "name": "11018401",
+      "singlePack": 0,
+      "id": 11018401,
+      "effects": [
+        "11018401_skill01",
+        "11018401_skill02",
+        "11018401_skill01_tips",
+        "11018401_combo01",
+        "11018401_combo02_1",
+        "11018401_combo02_2",
+        "11018401_combo02_hit"
+      ]
+    },
+    {
+      "name": "11018501",
+      "singlePack": 0,
+      "id": 11018501,
+      "effects": [
+        "11018501_attack01",
+        "11018501_attack02",
+        "11018501_attack03",
+        "11018501_skill01",
+        "11018501_skill01_01",
+        "11018501_skill01_02",
+        "11018501_skill01_bg",
+        "11018501_skill01_boom",
+        "11018501_skill01_02_bisha",
+        "11018501_skill01_bg_bisha",
+        "11018501_skill01_bisha",
+        "11018501_skill01_tips",
+        "11018501_combo01",
+        "11018501_combo01_01",
+        "11018501_passive01",
+        "Halo_shamo"
+      ]
+    },
+    {
+      "name": "11019101",
+      "singlePack": 0,
+      "id": 11019101,
+      "effects": [
+        "11019101_attack01",
+        "11019101_attack04",
+        "11019101_attack05",
+        "11019101_attack06",
+        "11019101_skill01",
+        "11019101_skill01_front",
+        "11019101_skill01_bisha",
+        "11019101_skill01_tips",
+        "11019101_combo03"
+      ]
+    },
+    {
+      "name": "11019201",
+      "singlePack": 0,
+      "id": 11019201,
+      "effects": [
+        "11019201_attack02",
+        "11019201_attack03",
+        "11019201_skill01",
+        "11019201_skill01_02",
+        "11019201_skill01_bisha",
+        "11019201_skill01_tips",
+        "11019201_combo01_01"
+      ]
+    },
+    {
+      "name": "11019301",
+      "singlePack": 0,
+      "id": 11019301,
+      "effects": [
+        "11019301_attack01",
+        "11019301_attack02",
+        "11019301_attack03",
+        "11019301_skill01_tiaoqi",
+        "11019301_skill01_zhuanchang",
+        "11019301_skill01_baozha",
+        "11019301_skill01_jiewei",
+        "11019301_skill01_tiaoqi_bisha",
+        "11019301_skill01_tips",
+        "11019301_combo01"
+      ]
+    },
+    {
+      "name": "11019401",
+      "singlePack": 0,
+      "id": 11019401,
+      "effects": [
+        "11019401_attack01",
+        "11019401_attack02",
+        "11019401_attack03",
+        "11019401_skill01_begin1",
+        "11019401_skill01_begin2",
+        "11019401_skill01_begin3",
+        "11019401_skill01_spine",
+        "11019401_skill01_dilie1",
+        "11019401_skill01_dilie2",
+        "11019401_skill01_dilie3",
+        "11019401_skill01_boom1",
+        "11019401_skill01_boom2",
+        "11019401_skill01_boom3",
+        "11019401_skill01_end",
+        "11019401_skill01_tips",
+        "11019401_skill02_1_1",
+        "11019401_skill02_2_1",
+        "11019401_skill02_2_2",
+        "11019401_skill02_3",
+        "11019401_skill02_4_1",
+        "11019401_skill02_4_2",
+        "11019401_skill02_5_1",
+        "11019401_skill02_5_2",
+        "11019401_skill02_5_3",
+        "11019401_skill02_6",
+        "11019401_skill02_tips",
+        "11019401_combo01",
+        "11019401_passive01",
+        "11119201_passive01"
+      ]
+    },
+    {
+      "name": "11020101",
+      "singlePack": 0,
+      "id": 11020101,
+      "effects": [
+        "11020101_attack01",
+        "11020101_skill01",
+        "11020101_combo01",
+        "11020101_skill01_tips",
+        "11020101_skill01_bisha"
+      ]
+    },
+    {
+      "name": "11020102",
+      "singlePack": 0,
+      "id": 11020102,
+      "effects": []
+    },
+    {
+      "name": "11020201",
+      "singlePack": 0,
+      "id": 11020201,
+      "effects": [
+        "11020201_skill01"
+      ]
+    },
+    {
+      "name": "11020301",
+      "singlePack": 0,
+      "id": 11020301,
+      "effects": [
+        "11020301_attack01",
+        "11020301_attack02",
+        "11020301_attack03",
+        "11020301_skill01",
+        "11020301_skill01_tips",
+        "11020301_combo01_01"
+      ]
+    },
+    {
+      "name": "11020401",
+      "singlePack": 0,
+      "id": 11020401,
+      "effects": [
+        "11020401_skill01_1",
+        "11020401_skill01",
+        "11020401_skill01_hit",
+        "11020401_skill01_tips",
+        "11020401_combo01"
+      ]
+    },
+    {
+      "name": "11021101",
+      "singlePack": 0,
+      "id": 11021101,
+      "effects": [
+        "11021101_attack01",
+        "11021101_skill01",
+        "11021101_skill01_bisha",
+        "11021101_skill01_tips",
+        "11021101_skill03",
+        "11021101_combo02",
+        "11021101_combo03"
+      ]
+    },
+    {
+      "name": "11021102",
+      "singlePack": 0,
+      "id": 11021102,
+      "effects": [
+        "11033101_attack01",
+        "11033101_attack02",
+        "11033101_skill01_02",
+        "11033101_skill01",
+        "11033101_skill01_03",
+        "11033101_skill01_04",
+        "11033101_skill01_hit",
+        "11033101_combo01",
+        "11033101_passive01",
+        "11033101_passive02"
+      ]
+    },
+    {
+      "name": "11021103",
+      "singlePack": 0,
+      "id": 11021103,
+      "effects": [
+        "11034101_skill02_miss",
+        "11034101_attack01",
+        "11034101_attack02",
+        "11034101_attack03",
+        "11034101_skill01_01",
+        "11034101_skill01_02",
+        "11034101_skill01_lhit",
+        "11034101_skill01_04",
+        "11034101_skill01_finish",
+        "11034101_attack04"
+      ]
+    },
+    {
+      "name": "11021105",
+      "singlePack": 0,
+      "id": 11021105,
+      "effects": [
+        "11021101_combo02",
+        "11021101_skill01"
+      ]
+    },
+    {
+      "name": "11021106",
+      "singlePack": 0,
+      "id": 11021106,
+      "effects": [
+        "11033101_attack01",
+        "11033101_attack02",
+        "11033101_skill02_01",
+        "11033101_skill02_02",
+        "11033101_skill02_03",
+        "11033101_skill02_04",
+        "11033101_skill02_05",
+        "11033101_combo01",
+        "11033101_passive01",
+        "11033101_passive02",
+        "11021106_skill01_tips"
+      ]
+    },
+    {
+      "name": "11021107",
+      "singlePack": 0,
+      "id": 11021107,
+      "effects": [
+        "11034101_skill02_miss",
+        "11034101_attack01",
+        "11034101_attack02",
+        "11034101_attack03",
+        "11034101_skill01_01",
+        "11034101_skill01_02",
+        "11034101_skill01_lhit",
+        "11034101_skill01_04",
+        "11034101_skill01_finish",
+        "11034101_attack04",
+        "11021107_skill01_tips"
+      ]
+    },
+    {
+      "name": "11021201",
+      "singlePack": 0,
+      "id": 11021201,
+      "effects": []
+    },
+    {
+      "name": "11021301",
+      "singlePack": 0,
+      "id": 11021301,
+      "effects": [
+        "11021301_attack01",
+        "11021301_skill01",
+        "11021301_skill01_bisha",
+        "11021301_skill01_tips",
+        "11021301_combo01",
+        "00000000_skill01_03",
+        "11021301_combo01_hit"
+      ]
+    },
+    {
+      "name": "11021401",
+      "singlePack": 0,
+      "id": 11021401,
+      "effects": [
+        "11021401_attack01",
+        "11021401_attack02",
+        "11021401_attack03",
+        "11021401_skill01_zhuti",
+        "11021401_skill01_cj",
+        "11021401_skill01_tips",
+        "11021401_combo01",
+        "11021401_combo02"
+      ]
+    },
+    {
+      "name": "11022101",
+      "singlePack": 0,
+      "id": 11022101,
+      "effects": [
+        "11022101_attack01",
+        "11022101_attack02",
+        "11022101_skill01",
+        "11022101_skill01_bisha",
+        "11022101_skill01_tips",
+        "11022101_skill02",
+        "11022101_skill03",
+        "11022101_passive01_01",
+        "11022101_passive01_02",
+        "11022101_passive02",
+        "11022101_combo01",
+        "11022101_combo02",
+        "11022101_combo03"
+      ]
+    },
+    {
+      "name": "11022201",
+      "singlePack": 0,
+      "id": 11022201,
+      "effects": [
+        "11022201_attack01",
+        "11022201_skill01",
+        "11022201_skill02",
+        "11022201_skill02_2",
+        "11022201_skill03",
+        "11022201_skill01_tips",
+        "11022201_skill02_tips",
+        "11022201_skill03_tips",
+        "11022201_combo01"
+      ]
+    },
+    {
+      "name": "11022301",
+      "singlePack": 0,
+      "id": 11022301,
+      "effects": [
+        "11022301_attack01",
+        "11022301_attack02",
+        "11022301_attack03",
+        "11022301_Skill01_qs",
+        "11022301_Skill01_zadi",
+        "11022301_Skill01_dizhen",
+        "11022301_Skill01_zz",
+        "11022301_skill01_tips",
+        "11022301_Skill2",
+        "11022301_Skill2_1"
+      ]
+    },
+    {
+      "name": "11023101",
+      "singlePack": 0,
+      "id": 11023101,
+      "effects": [
+        "11023101_attack01_01",
+        "11023101_attack01_02",
+        "11023101_attack01_03",
+        "11023101_skill01_02",
+        "11023101_skill01_01",
+        "11023101_skill01_tips",
+        "11023101_combo01"
+      ]
+    },
+    {
+      "name": "11023201",
+      "singlePack": 0,
+      "id": 11023201,
+      "effects": [
+        "11023201_skill01",
+        "11023201_skill02",
+        "11023201_skill03",
+        "11023201_skill01_1",
+        "11023201_skill01_tips",
+        "11023201_combo01"
+      ]
+    },
+    {
+      "name": "11023301",
+      "singlePack": 0,
+      "id": 11023301,
+      "effects": [
+        "11023301_attack01",
+        "11023301_skill01_qishou",
+        "11023301_skill01_kuoyu",
+        "11023301_skill01_kuoyu_1",
+        "11023301_skill01_zz",
+        "11023301_skill01_tips",
+        "11023301_skill02",
+        "11023301_skill02_1"
+      ]
+    },
+    {
+      "name": "11023401",
+      "singlePack": 0,
+      "id": 11023401,
+      "effects": [
+        "11023401_attack01",
+        "11023401_skill01_kuoyu",
+        "11023401_skill01_tips",
+        "11023401_combo01",
+        "11023401_skill03_tips",
+        "11023401_skill03_tips_wenlu",
+        "11023401_skill03"
+      ]
+    },
+    {
+      "name": "11023501",
+      "singlePack": 0,
+      "id": 11023501,
+      "effects": [
+        "11023501_attack01",
+        "11023501_attack02",
+        "11023501_skill01_0",
+        "11023501_skill01",
+        "11023501_skill01_1",
+        "11023501_skill01_3",
+        "11023501_skill01_2",
+        "11023501_skill01_4",
+        "11023501_skill01_tips_01",
+        "11023501_skill01_tips",
+        "11023501_skill01_tips_02",
+        "11023501_skill01_tips_03",
+        "11023501_combo01",
+        "11020201_skill01"
+      ]
+    },
+    {
+      "name": "11024101",
+      "singlePack": 0,
+      "id": 11024101,
+      "effects": [
+        "11024101_attack01",
+        "11024101_attack03",
+        "11024101_skill01",
+        "11024101_skill02",
+        "11024101_skill03_shifang",
+        "11024101_skill03_shigui",
+        "11024101_skill03_hit",
+        "11024101_skill01_tips",
+        "11024101_skill03_tips",
+        "00000000_skill_fazhen",
+        "11024101_combo01",
+        "11024101_combo02"
+      ]
+    },
+    {
+      "name": "11024102",
+      "singlePack": 0,
+      "id": 11024102,
+      "effects": [
+        "11024102_attack01"
+      ]
+    },
+    {
+      "name": "11025101",
+      "singlePack": 0,
+      "id": 11025101,
+      "effects": [
+        "11025101_attack01",
+        "11025101_attack02",
+        "11025101_attack03",
+        "11025101_skill01_3",
+        "11025101_skill01_5",
+        "11025101_skill01_4",
+        "11025101_skill01_2",
+        "11025101_skill01_tips",
+        "11025101_combo01"
+      ]
+    },
+    {
+      "name": "11025301",
+      "singlePack": 0,
+      "id": 11025301,
+      "effects": [
+        "11025301_attack01",
+        "11025301_attack02",
+        "11025301_attack03",
+        "11025301_skill01_qishou",
+        "11025301_skill01_beijing",
+        "11025301_skill01_baoji",
+        "11025301_skill01_qishou_bisha",
+        "11025301_skill01_beijing_bisha",
+        "11025301_skill01_tips",
+        "11025301_combo"
+      ]
+    },
+    {
+      "name": "11026101",
+      "singlePack": 0,
+      "id": 11026101,
+      "effects": [
+        "11026101_attack01",
+        "11026101_attack02",
+        "11026101_attack03",
+        "11026101_skill01_02",
+        "11026101_skill01_01",
+        "11026101_skill01_03",
+        "11026101_attack04",
+        "11026101_skill01_02_bisha",
+        "11026101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11027101",
+      "singlePack": 0,
+      "id": 11027101,
+      "effects": [
+        "11027101_attack01",
+        "11027101_skill01",
+        "11027101_skill01_tips",
+        "11027101_combo01",
+        "11027101_skill01_02"
+      ]
+    },
+    {
+      "name": "11028101",
+      "singlePack": 0,
+      "id": 11028101,
+      "effects": [
+        "11028101_attack01",
+        "11028101_attack02",
+        "11028101_attack03",
+        "11028101_skill01",
+        "11028101_skill01_bisha",
+        "11028101_skill01_tips",
+        "11028101_combo01",
+        "11028101_skill01_02",
+        "11028101_skill01_03"
+      ]
+    },
+    {
+      "name": "11029101",
+      "singlePack": 0,
+      "id": 11029101,
+      "effects": [
+        "11029101_attack02",
+        "11029101_skill01_01",
+        "11029101_skill01_02",
+        "11029101_skill01_03",
+        "11029101_skill01_01_bisha",
+        "11029101_skill01_tips",
+        "11029101_combo01"
+      ]
+    },
+    {
+      "name": "11030101",
+      "singlePack": 0,
+      "id": 11030101,
+      "effects": [
+        "11030101_attack01",
+        "11030101_skill01",
+        "11030101_skill01_hit",
+        "11030101_skill01_bisha",
+        "11030101_skill01_tips",
+        "11030101_combo01"
+      ]
+    },
+    {
+      "name": "11031101",
+      "singlePack": 0,
+      "id": 11031101,
+      "effects": [
+        "11031101_attack01",
+        "11031101_skill01_04",
+        "11031101_skill01_01",
+        "11031101_skill01_02",
+        "11031101_skill01_03",
+        "11031101_skill01_hitsmoke",
+        "11031101_skill01_tips",
+        "11031101_combo01",
+        "11031101_combo02",
+        "11031101_passive01",
+        "11031101_attack01_2",
+        "11031101_skill01_05",
+        "11031101_skill02_tips",
+        "11031101_passive02",
+        "11031101_attack02",
+        "11031101_attack03"
+      ]
+    },
+    {
+      "name": "11031201",
+      "singlePack": 0,
+      "id": 11031201,
+      "effects": [
+        "11031201_attack01",
+        "11031201_attack03",
+        "11031201_skill01",
+        "11031201_skill01_buff",
+        "11031201_skill01_tips",
+        "11031201_combo01",
+        "11031201_combo02",
+        "11031201_passive01"
+      ]
+    },
+    {
+      "name": "11031301",
+      "singlePack": 0,
+      "id": 11031301,
+      "effects": [
+        "11031301_attack01",
+        "11031301_skill01_1",
+        "11031301_skill01_2",
+        "11031301_skill01_1_1",
+        "11031301_skill01_1_2",
+        "11031301_skill02_1",
+        "11031301_skill01_tips",
+        "11031301_combo",
+        "11031301_passive01"
+      ]
+    },
+    {
+      "name": "11031401",
+      "singlePack": 0,
+      "id": 11031401,
+      "effects": [
+        "11031401_attack01_01",
+        "11031401_attack01",
+        "11031401_skill01_began",
+        "11031401_skill01",
+        "11031401_skill01_cc",
+        "11031401_skill01_boom",
+        "11031401_skill01_you",
+        "11031401_skill01_bg",
+        "11031401_skill01_bg_01",
+        "11031401_skill01_end",
+        "11031401_skill01_tips",
+        "11031401_skill02",
+        "11031401_skill02_03",
+        "11031401_skill02_04",
+        "11031401_skill02_05",
+        "11031401_skill02_jiewei",
+        "11031401_skill02_tips",
+        "11031401_skill02_tips_1",
+        "11031401_combo01"
+      ]
+    },
+    {
+      "name": "11032101",
+      "singlePack": 0,
+      "id": 11032101,
+      "effects": [
+        "11032101_attack01",
+        "11032101_attack02",
+        "11032101_attack03",
+        "14001301_skill02",
+        "14001301_skill02_front",
+        "11032101_combo01",
+        "14001301_skill02_bisha",
+        "11032101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11032201",
+      "singlePack": 0,
+      "id": 11032201,
+      "effects": [
+        "11032201_attack01",
+        "11032201_attack03",
+        "11032201_skill01_1",
+        "11032201_skill01",
+        "11032201_skill01_3",
+        "11032201_skill01_4",
+        "11032201_skill01_tips",
+        "11032201_combo01",
+        "11032201_combo02",
+        "11032201_combo03",
+        "11032201_passive"
+      ]
+    },
+    {
+      "name": "11032202",
+      "singlePack": 0,
+      "id": 11032202,
+      "effects": [
+        "11032202_attack01"
+      ]
+    },
+    {
+      "name": "11033101",
+      "singlePack": 0,
+      "id": 11033101,
+      "effects": [
+        "11033101_attack01",
+        "11033101_attack02",
+        "11033101_skill02_01",
+        "11033101_skill02_02",
+        "11033101_skill02_03",
+        "11033101_skill02_04",
+        "11033101_skill02_05",
+        "11033101_combo01",
+        "11033101_passive01",
+        "11033101_passive02",
+        "11033101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11033201",
+      "singlePack": 0,
+      "id": 11033201,
+      "effects": [
+        "11033201_entry",
+        "11033201_attack01",
+        "11033201_skill01_01",
+        "11033201_skill01_02",
+        "11033201_skill01_tips",
+        "11033201_skill01_tips_1",
+        "11033201_skill02_qishou",
+        "11033201_skill02_guodu3",
+        "11033201_skill02_msm",
+        "11033201_skill02_cp",
+        "11033201_skill02_tips",
+        "11033201_skill03_qishou",
+        "11033201_skill03_1",
+        "11033201_skill03_5",
+        "11033201_skill03_5_bg",
+        "11033201_skill03_5_boom",
+        "11033201_skill03_6",
+        "11033201_skill03_6_bg",
+        "11033201_skill03_end",
+        "11033201_skill03_tips",
+        "11033201_combo01",
+        "11033201_passive03",
+        "11033201_passive01",
+        "11033201_passive02",
+        "11033201_passive04"
+      ]
+    },
+    {
+      "name": "11034101",
+      "singlePack": 0,
+      "id": 11034101,
+      "effects": [
+        "11034101_skill02_miss",
+        "11034101_attack01",
+        "11034101_attack02",
+        "11034101_attack03",
+        "11034101_skill01_01",
+        "11034101_skill01_02",
+        "11034101_skill01_lhit",
+        "11034101_skill01_04",
+        "11034101_skill01_finish",
+        "11034101_attack04",
+        "11034101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11036101",
+      "singlePack": 0,
+      "id": 11036101,
+      "effects": [
+        "11036101_attack01",
+        "11036101_attack02",
+        "11036101_attack03",
+        "11036101_skill01",
+        "11036101_skill01_bisha",
+        "11036101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11039101",
+      "singlePack": 0,
+      "id": 11039101,
+      "effects": [
+        "11039101_attack03",
+        "11039101_attack04",
+        "11039101_attack05",
+        "11039101_skill01",
+        "11039101_skill01_tips",
+        "11039101_skill01_bisha",
+        "11039101_combo01",
+        "11039101_combo03"
+      ]
+    },
+    {
+      "name": "11039201",
+      "singlePack": 0,
+      "id": 11039201,
+      "effects": [
+        "11039101_attack03",
+        "11039101_attack04",
+        "11039101_attack05",
+        "11039201_skill01_001",
+        "11039201_skill01_002",
+        "11039201_skill01_003",
+        "11039201_skill01_000",
+        "11039201_skill01_200",
+        "11039201_skill01_000_bisha",
+        "11039201_skill01_002_bisha",
+        "11039201_skill01_tips",
+        "11039101_combo01",
+        "11039201_passive04"
+      ]
+    },
+    {
+      "name": "11039301",
+      "singlePack": 0,
+      "id": 11039301,
+      "effects": [
+        "11039301_attack01",
+        "11039301_attack01_hit",
+        "11039301_skill01",
+        "11039301_skill02",
+        "11039301_skill01_tips",
+        "11039301_combo01_01"
+      ]
+    },
+    {
+      "name": "11039401",
+      "singlePack": 0,
+      "id": 11039401,
+      "effects": [
+        "11039401_passive01",
+        "11039401_attack01",
+        "11039401_attack02",
+        "11039401_skill01_bg",
+        "11039401_skill01_end",
+        "11039401_skill01_qishou",
+        "11039401_skill01_zhuti",
+        "11039401_skill01_bg_bisha",
+        "11039401_skill01_qishou_bisha",
+        "11039401_skill01_tips",
+        "11039401_combo01",
+        "11039401_passive02",
+        "Halo_senlin"
+      ]
+    },
+    {
+      "name": "11040101",
+      "singlePack": 0,
+      "id": 11040101,
+      "effects": [
+        "11040101_attack01",
+        "11040101_skill01",
+        "11040101_skill01_front",
+        "11040101_skill01_tips",
+        "11040101_passive01"
+      ]
+    },
+    {
+      "name": "11040201",
+      "singlePack": 0,
+      "id": 11040201,
+      "effects": [
+        "11040201_attack02",
+        "11040201_attack03",
+        "11040101_skill01",
+        "11040101_skill01_front",
+        "11040201_skill01_tips",
+        "11040201_passive01"
+      ]
+    },
+    {
+      "name": "11041101",
+      "singlePack": 0,
+      "id": 11041101,
+      "effects": [
+        "11041101_attack01",
+        "11041101_attack02",
+        "11041101_skill01_02",
+        "11041101_skill01_01",
+        "11041101_skill02",
+        "11041101_skill03",
+        "11041101_skill01_bisha",
+        "11041101_skill01_tips",
+        "11041101_combo01_01",
+        "11041101_combo01_02",
+        "11041101_combo02"
+      ]
+    },
+    {
+      "name": "11041201",
+      "singlePack": 0,
+      "id": 11041201,
+      "effects": [
+        "11041101_attack01",
+        "11041101_attack02",
+        "11041201_skill01",
+        "11041201_skill02",
+        "11041201_skill01_tips",
+        "11041201_combo01_01",
+        "11041201_combo01_02",
+        "11039201_passive04"
+      ]
+    },
+    {
+      "name": "11042101",
+      "singlePack": 0,
+      "id": 11042101,
+      "effects": [
+        "11042101_attack01",
+        "11042101_skill02_01",
+        "11042101_skill02_02",
+        "11042101_skill02_bisha",
+        "11042101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11042201",
+      "singlePack": 0,
+      "id": 11042201,
+      "effects": [
+        "11042201_attack01",
+        "11042201_attack02",
+        "11042201_attack03",
+        "11042201_skill01",
+        "11042201_skill01_bisha",
+        "11042201_skill01_tips",
+        "11042101_attack01"
+      ]
+    },
+    {
+      "name": "11042301",
+      "singlePack": 0,
+      "id": 11042301,
+      "effects": [
+        "11042301_attack01",
+        "11042301_attack02",
+        "11042301_skill02",
+        "11042301_skill02_bisha",
+        "11042301_skill02_tips",
+        "11042301_combo01",
+        "11042301_passive01"
+      ]
+    },
+    {
+      "name": "11043101",
+      "singlePack": 0,
+      "id": 11043101,
+      "effects": [
+        "11043101_attack02",
+        "11043101_skill03_hand",
+        "11043101_skill03",
+        "11043101_skill02",
+        "11039101_combo02",
+        "11043101_combo03",
+        "00000000_attack06",
+        "00000000_attack07",
+        "00000000_attack08",
+        "11043101_skill01_tips",
+        "11043101_skill03_bisha"
+      ]
+    },
+    {
+      "name": "11044101",
+      "singlePack": 0,
+      "id": 11044101,
+      "effects": [
+        "11044101_attack01",
+        "11044101_skill01_01",
+        "11044101_skill01_03",
+        "11044101_skill01_02",
+        "11044101_skill01_tips",
+        "11044101_combo01",
+        "11044101_passive01"
+      ]
+    },
+    {
+      "name": "11044201",
+      "singlePack": 0,
+      "id": 11044201,
+      "effects": [
+        "11044201_attack01",
+        "11044201_attack02",
+        "11044201_attack03",
+        "11044201_skill01_qishou",
+        "11044201_skill01_kuwu",
+        "11044201_skill01_gongji",
+        "11044201_skill01_zuihou",
+        "11044201_skill01_zuihou_1",
+        "11044201_skill01_sidai",
+        "11044201_skill01_zuizhong",
+        "11044201_skill01_tips",
+        "11044201_skill02",
+        "11044201_combo02",
+        "11044101_passive01"
+      ]
+    },
+    {
+      "name": "11045101",
+      "singlePack": 0,
+      "id": 11045101,
+      "effects": []
+    },
+    {
+      "name": "11045201",
+      "singlePack": 0,
+      "id": 11045201,
+      "effects": [
+        "11045201_attack01",
+        "11045201_skill01",
+        "11045201_skill01_tips"
+      ]
+    },
+    {
+      "name": "11048101",
+      "singlePack": 0,
+      "id": 11048101,
+      "effects": [
+        "11048101_attack01",
+        "11048101_attack02",
+        "11048101_attack03",
+        "11048101_skill01",
+        "11048101_skill01_tips",
+        "11048101_combo01",
+        "11048101_passive01",
+        "11048101_skill01_02"
+      ]
+    },
+    {
+      "name": "11048102",
+      "singlePack": 0,
+      "id": 11048102,
+      "effects": [
+        "11048101_passive01",
+        "11048101_skill02"
+      ]
+    },
+    {
+      "name": "11048201",
+      "singlePack": 0,
+      "id": 11048201,
+      "effects": [
+        "11048201_skill01",
+        "11048201_skill01_2",
+        "11048201_skill01_tips",
+        "11048201_combo01"
+      ]
+    },
+    {
+      "name": "11048301",
+      "singlePack": 0,
+      "id": 11048301,
+      "effects": [
+        "11048301_passive01",
+        "11048301_attack01",
+        "11048301_attack02",
+        "11048301_skill01_end1",
+        "11048301_skill01_zhuti",
+        "11048301_skill01_1",
+        "11048301_skill01_bisha1",
+        "11048301_skill01_bisha2",
+        "11048301_skill01_tips",
+        "11048301_skill01_tips_1",
+        "11048301_combo01",
+        "11048301_passive02"
+      ]
+    },
+    {
+      "name": "11049101",
+      "singlePack": 0,
+      "id": 11049101,
+      "effects": [
+        "11049101_attack01",
+        "11049101_attack02",
+        "11049101_skill02_01",
+        "11049101_skill02_02",
+        "11049101_skill02_03",
+        "11049101_skill02_04",
+        "11049101_skill01_tips",
+        "11049101_combo02",
+        "11049101_combo01"
+      ]
+    },
+    {
+      "name": "11049201",
+      "singlePack": 0,
+      "id": 11049201,
+      "effects": [
+        "11049201_skill01",
+        "11049201_skill01_tips",
+        "11049201_combo01",
+        "11049201_Skill03",
+        "11049201_skill05_00",
+        "11049201_skill05_00_1",
+        "11049201_skill05_01",
+        "11049201_skill05_01_2",
+        "11049201_skill05_02",
+        "11049201_skill05_03",
+        "11049201_skill05_04"
+      ]
+    },
+    {
+      "name": "11049202",
+      "singlePack": 0,
+      "id": 11049202,
+      "effects": []
+    },
+    {
+      "name": "11049203",
+      "singlePack": 0,
+      "id": 11049203,
+      "effects": []
+    },
+    {
+      "name": "11049301",
+      "singlePack": 0,
+      "id": 11049301,
+      "effects": [
+        "11049301_passive01",
+        "11049301_attack02",
+        "11049301_skill01_01",
+        "11049301_skill01_02",
+        "11049301_skill01_02_01",
+        "11049301_skill01_02_02",
+        "11049301_skill01_03",
+        "11049301_skill01_04",
+        "11049301_skill01_tips",
+        "11049301_skill01_tips_01",
+        "11049301_combo01",
+        "11049301_passive02",
+        "11049301_passive03",
+        "Halo_haian"
+      ]
+    },
+    {
+      "name": "11049302",
+      "singlePack": 0,
+      "id": 11049302,
+      "effects": []
+    },
+    {
+      "name": "11050101",
+      "singlePack": 0,
+      "id": 11050101,
+      "effects": [
+        "11050101_attack01",
+        "11050101_skill01_tips",
+        "11050101_combo01",
+        "11050102_attack01"
+      ]
+    },
+    {
+      "name": "11050102",
+      "singlePack": 0,
+      "id": 11050102,
+      "effects": [
+        "11050102_attack01"
+      ]
+    },
+    {
+      "name": "11050103",
+      "singlePack": 0,
+      "id": 11050103,
+      "effects": []
+    },
+    {
+      "name": "11050201",
+      "singlePack": 0,
+      "id": 11050201,
+      "effects": [
+        "11050201_attack01",
+        "11050201_attack02",
+        "11050201_attack03",
+        "11050201_skill01",
+        "11050201_skill02",
+        "11050201_skill01_tips",
+        "11050201_combo01",
+        "11050201_combo04"
+      ]
+    },
+    {
+      "name": "11051101",
+      "singlePack": 0,
+      "id": 11051101,
+      "effects": [
+        "11051101_skill01",
+        "11051101_skill01_bisha",
+        "11051101_skill01_tips",
+        "11051101_combo01",
+        "11051101_skill01_tips_2"
+      ]
+    },
+    {
+      "name": "11052101",
+      "singlePack": 0,
+      "id": 11052101,
+      "effects": [
+        "11052101_attack01",
+        "11052101_attack02",
+        "11052101_attack03",
+        "11052101_skill01",
+        "11052101_skill01_tips",
+        "11052101_combo01"
+      ]
+    },
+    {
+      "name": "11052201",
+      "singlePack": 0,
+      "id": 11052201,
+      "effects": [
+        "11052201_attack01",
+        "11052201_attack02",
+        "11052201_attack03",
+        "11052201_skill01",
+        "11052201_skill01_tips",
+        "11052201_combo01"
+      ]
+    },
+    {
+      "name": "11053101",
+      "singlePack": 0,
+      "id": 11053101,
+      "effects": [
+        "11053101_attack01",
+        "11053101_attack02",
+        "11053101_attack03",
+        "11053101_skill01",
+        "11053101_skill01_bisha",
+        "11053101_skill01_tips",
+        "11053101_combo01"
+      ]
+    },
+    {
+      "name": "11053201",
+      "singlePack": 0,
+      "id": 11053201,
+      "effects": [
+        "11053201_attack01",
+        "11053201_attack02",
+        "11053201_attack03",
+        "11053201_skill01_1",
+        "11053201_skill01_2",
+        "11053201_skill01_3",
+        "11053201_skill01_bisha",
+        "11053201_skill01_tips",
+        "11053201_combo01",
+        "11053201_passive01"
+      ]
+    },
+    {
+      "name": "11054101",
+      "singlePack": 0,
+      "id": 11054101,
+      "effects": [
+        "11054101_attack01",
+        "11054101_attack02",
+        "11054101_attack03",
+        "11054101_attack03_hit",
+        "11054101_skill02",
+        "11054101_skill03",
+        "11054101_skill01_tips",
+        "11054101_combo01",
+        "11054101_combo01_hit",
+        "11054101_skill02_01"
+      ]
+    },
+    {
+      "name": "11054201",
+      "singlePack": 0,
+      "id": 11054201,
+      "effects": [
+        "11054201_attack01",
+        "11054201_skill01",
+        "11054201_skill01_tips",
+        "11054201_combo01"
+      ]
+    },
+    {
+      "name": "11054301",
+      "singlePack": 0,
+      "id": 11054301,
+      "effects": [
+        "11054301_passive01",
+        "11054301_attack01",
+        "11054301_skill01_01_ready01",
+        "11054301_skill01_02_jt01",
+        "11054301_skill01_04_jt01",
+        "11054301_skill01_03_jt01",
+        "11054301_skill01_05_jt01",
+        "11054301_skill01_end01",
+        "11054301_skill01_tips",
+        "11054301_combo01",
+        "11054301_combo01_01",
+        "11054301_combo01_02",
+        "11054301_passive02"
+      ]
+    },
+    {
+      "name": "11055101",
+      "singlePack": 0,
+      "id": 11055101,
+      "effects": [
+        "11055101_attack01",
+        "11055101_attack02",
+        "11055101_attack03",
+        "11055101_skill03_hit",
+        "11055101_skill03",
+        "11055101_skill03_bisha_hit",
+        "11055101_skill03_bisha",
+        "11055101_skill01_tips",
+        "11055101_combo01_01"
+      ]
+    },
+    {
+      "name": "11055201",
+      "singlePack": 0,
+      "id": 11055201,
+      "effects": [
+        "11055201_attack01",
+        "11055201_attack02",
+        "11055201_attack03",
+        "11055201_skill01",
+        "11055201_skill01_tips",
+        "11055201_skill02_bisha",
+        "11055201_combo01"
+      ]
+    },
+    {
+      "name": "11056101",
+      "singlePack": 0,
+      "id": 11056101,
+      "effects": [
+        "11056101_skill01",
+        "11056101_skill01_hit",
+        "11056101_skill01_bisha",
+        "11056101_skill01_tips",
+        "11056101_attack01",
+        "11056101_attack02",
+        "11056101_attack03",
+        "11056101_combo01"
+      ]
+    },
+    {
+      "name": "11056201",
+      "singlePack": 0,
+      "id": 11056201,
+      "effects": []
+    },
+    {
+      "name": "11056301",
+      "singlePack": 0,
+      "id": 11056301,
+      "effects": [
+        "11056301_skill01",
+        "11056301_attack01",
+        "11056301_attack01_2",
+        "11056301_attack02",
+        "11056301_skill02",
+        "11056301_skill01_tips",
+        "11056301_combo01",
+        "11056301_passive01"
+      ]
+    },
+    {
+      "name": "11057101",
+      "singlePack": 0,
+      "id": 11057101,
+      "effects": [
+        "00000000_attack02_2",
+        "11057101_attack01",
+        "11057101_skill01",
+        "11057101_skill01_bisha",
+        "11057101_skill01_tips",
+        "11057101_combo01_01",
+        "11057101_skill03"
+      ]
+    },
+    {
+      "name": "11057201",
+      "singlePack": 0,
+      "id": 11057201,
+      "effects": [
+        "11057201_attack02",
+        "11057201_attack01",
+        "11057201_skill01",
+        "11057201_skill01_tips",
+        "11057201_combo01"
+      ]
+    },
+    {
+      "name": "11058101",
+      "singlePack": 0,
+      "id": 11058101,
+      "effects": [
+        "00000000_skill_fazhen_xiao",
+        "00000000_skill01_04",
+        "11058101_skill01_tips",
+        "11058101_combo01"
+      ]
+    },
+    {
+      "name": "11058102",
+      "singlePack": 0,
+      "id": 11058102,
+      "effects": []
+    },
+    {
+      "name": "11058103",
+      "singlePack": 0,
+      "id": 11058103,
+      "effects": [
+        "11058101_attack01",
+        "11058101_attack02"
+      ]
+    },
+    {
+      "name": "11058201",
+      "singlePack": 0,
+      "id": 11058201,
+      "effects": [
+        "00000000_skill_fazhen_xiao",
+        "00000000_skill01_04",
+        "11058101_combo01"
+      ]
+    },
+    {
+      "name": "11059101",
+      "singlePack": 0,
+      "id": 11059101,
+      "effects": [
+        "11059101_attack01",
+        "11059101_attack02",
+        "11059101_attack03",
+        "11059101_skill01",
+        "11059101_skill01_tips",
+        "11059101_combo01"
+      ]
+    },
+    {
+      "name": "11060101",
+      "singlePack": 0,
+      "id": 11060101,
+      "effects": [
+        "11060101_passive02",
+        "11060101_attack01",
+        "11060101_attack02",
+        "11060101_attack03",
+        "11060101_skill01",
+        "11060101_skill01_2",
+        "11060101_skill01_tips",
+        "11060101_combo01",
+        "11060101_passive01",
+        "11060101_skill01_3"
+      ]
+    },
+    {
+      "name": "11061101",
+      "singlePack": 0,
+      "id": 11061101,
+      "effects": [
+        "11061101_attack01",
+        "11061101_attack02",
+        "11061101_attack03",
+        "11061101_skill01",
+        "11061101_skill01_hit",
+        "11061101_skill01_bisha",
+        "11061101_skill01_tips",
+        "11061101_combo01",
+        "11061101_passive01"
+      ]
+    },
+    {
+      "name": "11061201",
+      "singlePack": 0,
+      "id": 11061201,
+      "effects": [
+        "11061201_entry",
+        "11061201_dead",
+        "11061201_attack01",
+        "11061201_attack02",
+        "11061201_attack03",
+        "11061201_skill01",
+        "11061201_skill01_hit",
+        "11061201_skill01_bisha",
+        "11061201_skill01_tips",
+        "11061201_combo01",
+        "11040201_passive01",
+        "11061201_passive01"
+      ]
+    },
+    {
+      "name": "11061301",
+      "singlePack": 0,
+      "id": 11061301,
+      "effects": [
+        "11061301_attack01",
+        "11061301_attack02",
+        "11061301_attack03",
+        "11061301_skill01",
+        "11061301_skill01_hit",
+        "11061301_skill01_bisha",
+        "11061301_skill01_tips",
+        "11061301_combo01"
+      ]
+    },
+    {
+      "name": "11061401",
+      "singlePack": 0,
+      "id": 11061401,
+      "effects": [
+        "11061401_attack01",
+        "11061401_attack02",
+        "11061401_attack03",
+        "11061401_skill01",
+        "11061401_skill01_2",
+        "11061401_skill01_3",
+        "11061401_skill03",
+        "11061401_skill01_tips",
+        "11061401_Skill02",
+        "11061401_combo01"
+      ]
+    },
+    {
+      "name": "11061501",
+      "singlePack": 0,
+      "id": 11061501,
+      "effects": [
+        "11061501_attack01_01",
+        "11061501_attack01",
+        "11061501_attack01_03",
+        "11061501_skill01_begin",
+        "11061501_skill01_zhuti",
+        "11061501_skill01_zhuti_1",
+        "11061501_skill01_zhuti_2",
+        "11061501_skill01_zhuti_3",
+        "11061501_skill01_end",
+        "11061501_skill01_tips",
+        "11061501_combo01"
+      ]
+    },
+    {
+      "name": "11062101",
+      "singlePack": 0,
+      "id": 11062101,
+      "effects": [
+        "11062101_attack01",
+        "11062101_attack02",
+        "11062101_attack03",
+        "11062101_skill01_1",
+        "11062101_skill01_2",
+        "11062101_skill01_3",
+        "11062101_skill01_4",
+        "11062101_skill01_hit1",
+        "11062101_skill01_5",
+        "11062101_skill01_hit2",
+        "11062101_skill01_tips",
+        "11062101_combo01",
+        "11062101_passive01",
+        "11062101_passive01_hit"
+      ]
+    },
+    {
+      "name": "11063101",
+      "singlePack": 0,
+      "id": 11063101,
+      "effects": [
+        "11063101_attack01",
+        "11063101_attack01_hit",
+        "11063101_skill01",
+        "11063101_skill02",
+        "11063101_skill03",
+        "11063101_skill04",
+        "11063101_skill01_tips",
+        "11063101_skill01_1",
+        "11063101_combo01"
+      ]
+    },
+    {
+      "name": "11064101",
+      "singlePack": 0,
+      "id": 11064101,
+      "effects": [
+        "11064101_attack01",
+        "11064101_attack02",
+        "11064101_attack03",
+        "11064101_skill01",
+        "11064101_skill02",
+        "11064101_skill03",
+        "11064101_skill01_tips",
+        "11064101_combo01"
+      ]
+    },
+    {
+      "name": "11065101",
+      "singlePack": 0,
+      "id": 11065101,
+      "effects": [
+        "11065101_skill04",
+        "11065101_skill01",
+        "11065101_skill02",
+        "11065101_skill03",
+        "11065101_skill01_tips",
+        "11065101_combo01",
+        "11065101_passive02",
+        "11065101_attack01_01",
+        "11065101_attack06",
+        "11065101_attack02",
+        "11065101_attack05",
+        "11065101_attack03",
+        "11065101_attack04"
+      ]
+    },
+    {
+      "name": "11066101",
+      "singlePack": 0,
+      "id": 11066101,
+      "effects": [
+        "11066101_skill01_01",
+        "11066101_skill01_02",
+        "11066101_skill02",
+        "11066101_skill01_tips"
+      ]
+    },
+    {
+      "name": "11068101",
+      "singlePack": 0,
+      "id": 11068101,
+      "effects": [
+        "11068101_Skill01_entry",
+        "11068101_attack01",
+        "11068101_attack02",
+        "11068101_attack03",
+        "11068101_Skill01",
+        "11068101_Skill01_zhaohuan",
+        "11068101_Skill01_fazhen",
+        "11068101_Skill01_hit",
+        "11068101_Skill01_zhaohuan_bisha",
+        "11068101_skill01_tips",
+        "11068101_combo01"
+      ]
+    },
+    {
+      "name": "11068201",
+      "singlePack": 0,
+      "id": 11068201,
+      "effects": [
+        "11068201_passive01",
+        "11068201_attack01",
+        "11068201_Skill01_03",
+        "11068201_Skill01_04",
+        "11068201_Skill01",
+        "11068201_Skill01_01",
+        "11068201_Skill01_01_01",
+        "11068201_Skill01_01_02",
+        "11068201_skill01_02",
+        "11068201_Skill01_06",
+        "11068201_Skill01_05",
+        "11068201_skill01_tips",
+        "11068201_combo01",
+        "11068201_passive03",
+        "11068201_passive02",
+        "Halo_senlin"
+      ]
+    },
+    {
+      "name": "11069101",
+      "singlePack": 0,
+      "id": 11069101,
+      "effects": [
+        "11069101_attack01",
+        "11069101_attack02",
+        "11069101_attack03",
+        "11069101_skill01_qs",
+        "11069101_skill01_zc",
+        "11069101_skill01_bt",
+        "11069101_skill01_zhyb",
+        "11069101_skill01_fz",
+        "11069101_skill01_js",
+        "11069101_skill01_tips",
+        "11069101_Skill02",
+        "11069101_Skill03"
+      ]
+    },
+    {
+      "name": "11069201",
+      "singlePack": 0,
+      "id": 11069201,
+      "effects": [
+        "11069201_attack01",
+        "11069201_attack02",
+        "11069201_attack03",
+        "11069201_skill01_01_qs",
+        "11069201_skill01_03_burst",
+        "11069201_skill01_04_dragon",
+        "11069201_skill01_05_bg",
+        "11069201_skill01_06_end",
+        "11069201_skill01_tips",
+        "11069201_combo01",
+        "11069201_passive01"
+      ]
+    },
+    {
+      "name": "11070101",
+      "singlePack": 0,
+      "id": 11070101,
+      "effects": [
+        "11070101_attack01",
+        "11070101_attack02",
+        "11070101_attack03",
+        "11070101_skill01_pugong_01",
+        "11070101_skill01_pugong_01_2",
+        "11070101_skill01_pugong_02",
+        "11070101_skill01_pugong_03",
+        "11070101_skill01_pugong_03_2",
+        "11070101_skill02",
+        "11070101_skill01",
+        "11070101_skill01_cc",
+        "11070101_skill01_jf",
+        "11070101_skill01_jf_leiying",
+        "11070101_skill01_ft",
+        "11070101_skill01_cx",
+        "11070101_skill01_bs",
+        "11070101_skill01_xz",
+        "11070101_skill01_zd",
+        "11070101_skill01_zd_1",
+        "11070101_skill01_zz",
+        "11070101_skill01_tips",
+        "11070101_combo01",
+        "11070101_combo02"
+      ]
+    },
+    {
+      "name": "11071101",
+      "singlePack": 0,
+      "id": 11071101,
+      "effects": [
+        "11071101_attack03",
+        "11071101_skill01",
+        "11071101_skill01_bg",
+        "11071101_skill01_yj_1",
+        "11071101_skill01_yj_2",
+        "11071101_skill01_yj_3",
+        "11071101_skill01_xs",
+        "11071101_skill01_bk",
+        "11071101_skill01_zz",
+        "11071101_skill01_bisha",
+        "11071101_skill01_tips",
+        "11071101_combo"
+      ]
+    },
+    {
+      "name": "11072101",
+      "singlePack": 0,
+      "id": 11072101,
+      "effects": [
+        "11072101_attack01",
+        "11072101_skill01",
+        "11072101_skill01_tips",
+        "11072101_skill02",
+        "11072101_skill02_2",
+        "11072101_skill02_1",
+        "11072101_skill02_3",
+        "11072101_skill02_4",
+        "11072101_skill02_tips",
+        "11072101_combo01"
+      ]
+    },
+    {
+      "name": "11072201",
+      "singlePack": 0,
+      "id": 11072201,
+      "effects": [
+        "11072201_attack_01",
+        "11072201_attack_02",
+        "11072201_attack_03",
+        "11072201_skill01",
+        "11072201_skill01_tips",
+        "11072201_SKill02",
+        "11072201_SKill02_shouji"
+      ]
+    },
+    {
+      "name": "11073101",
+      "singlePack": 0,
+      "id": 11073101,
+      "effects": [
+        "11073101_attack01",
+        "11073101_attack02",
+        "11073101_attack03",
+        "11073101_skill01_qishou",
+        "11073101_skill01_zhuangchuang",
+        "11073101_skill01_baozi",
+        "11073101_skill01_baoza",
+        "11073101_skill01_jiewei",
+        "11073101_skill01_tips",
+        "11073101_combo01"
+      ]
+    },
+    {
+      "name": "11074101",
+      "singlePack": 0,
+      "id": 11074101,
+      "effects": [
+        "11074101_attack01",
+        "11074101_attack03",
+        "11074101_skill01_01",
+        "11074101_skill01_02",
+        "11074101_skill01_03",
+        "11074101_skill01_tips",
+        "11074101_skill2",
+        "11074101_passive01"
+      ]
+    },
+    {
+      "name": "11074201",
+      "singlePack": 0,
+      "id": 11074201,
+      "effects": [
+        "11074201_attack01",
+        "11074201_skill01_02",
+        "11074201_skill01_03",
+        "11074201_skill01_01",
+        "11074201_skill01_01_01",
+        "11074201_skill01_04",
+        "11074201_skill01",
+        "11074201_skill01_07",
+        "11074201_skill01_07_01",
+        "11074201_skill01_06",
+        "11074201_skill01_tips_01",
+        "11074201_skill01_tips",
+        "11074201_skill02",
+        "11074201_skill02_tips",
+        "11074201_combo01",
+        "11074201_passive02"
+      ]
+    },
+    {
+      "name": "11075101",
+      "singlePack": 0,
+      "id": 11075101,
+      "effects": [
+        "11075101_attack01",
+        "11075101_attack02",
+        "11075101_attack03",
+        "11075101_skill02",
+        "11075101_skill02_tips",
+        "11075101_combo01",
+        "11075101_skill3_00",
+        "11075101_skill3_03"
+      ]
+    },
+    {
+      "name": "11075201",
+      "singlePack": 0,
+      "id": 11075201,
+      "effects": [
+        "11075201_dead01",
+        "11075201_attack01",
+        "11075201_attack02",
+        "11075201_attack03",
+        "11075201_skill01_1",
+        "11075201_skill01_beijing",
+        "11075201_skill01_chongji",
+        "11075201_skill01_qiliu",
+        "11075201_skill01_qlb",
+        "11075201_skill01_3",
+        "11075201_skill01_3_2",
+        "11075201_skill01_4",
+        "11075201_skill01_bisha",
+        "11075201_skill01_tips",
+        "11075201_combo01",
+        "11075201_skill03",
+        "11075201_skill04"
+      ]
+    },
+    {
+      "name": "11076101",
+      "singlePack": 0,
+      "id": 11076101,
+      "effects": [
+        "11076101_attack_01",
+        "11076101_attack_02",
+        "11076101_attack_03",
+        "11076101_skill01",
+        "11076101_skill01_bisha1",
+        "11076101_skill01_tips",
+        "11076101_skill01_bisha2",
+        "11076101_combo01",
+        "11076101_skill03"
+      ]
+    },
+    {
+      "name": "11077101",
+      "singlePack": 0,
+      "id": 11077101,
+      "effects": [
+        "11077101_attack01",
+        "11077101_attack02",
+        "11077101_attack03",
+        "11077101_skill01_01",
+        "11077101_skill01_02",
+        "11077101_skill01_tips",
+        "11077101_combo01",
+        "11077101_passive01"
+      ]
+    },
+    {
+      "name": "11085101",
+      "singlePack": 0,
+      "id": 11085101,
+      "effects": [
+        "11085101_attack07",
+        "11085101_attack01",
+        "11085101_attack08",
+        "11085101_attack03",
+        "11085101_skill01_2",
+        "11085101_skill01_11",
+        "11085101_skill01_10",
+        "11085101_skill01",
+        "11085101_skill09_posui",
+        "11085101_skill09_heidong",
+        "11085101_skill01_jiewei01",
+        "11085101_skill09_tips",
+        "11085101_combo01",
+        "11085101_passive01",
+        "11085101_attack04",
+        "11085101_attack05",
+        "11085101_attack06"
+      ]
+    },
+    {
+      "name": "11088101",
+      "singlePack": 0,
+      "id": 11088101,
+      "effects": [
+        "11088101_attack01",
+        "11088101_attack02",
+        "11088101_skill01",
+        "11088101_skill01_bisha",
+        "11088101_skill01_tips",
+        "11088101_combo01",
+        "11088101_combo02"
+      ]
+    },
+    {
+      "name": "11089101",
+      "singlePack": 0,
+      "id": 11089101,
+      "effects": [
+        "11089101_skill01_4",
+        "11089101_skill01_1",
+        "11089101_skill01_2",
+        "11089101_skill01_3",
+        "11089101_skill01_tips",
+        "11089101_combo_01"
+      ]
+    },
+    {
+      "name": "11090101",
+      "singlePack": 0,
+      "id": 11090101,
+      "effects": [
+        "11090101_attack01",
+        "11090101_attack02",
+        "11090101_attack03",
+        "11090101_skill03",
+        "11090101_skill01",
+        "11090101_skill02",
+        "11090101_skill03_bisha",
+        "11090101_skill01_tips",
+        "11090101_skill02_bisha",
+        "11090101_combo01",
+        "11090101_passive01"
+      ]
+    },
+    {
+      "name": "11090201",
+      "singlePack": 0,
+      "id": 11090201,
+      "effects": [
+        "11090201_attack01",
+        "11090201_attack02",
+        "11090201_attack03",
+        "11090201_skill01_qishou",
+        "11090201_skill01_changjing",
+        "11090201_skill01_jiewei",
+        "11090201_skill01_tips",
+        "11090201_combo"
+      ]
+    },
+    {
+      "name": "11091201",
+      "singlePack": 0,
+      "id": 11091201,
+      "effects": [
+        "11091201_attack01",
+        "11091201_attack02",
+        "11091201_attack03",
+        "11091201_skill01_01",
+        "11091201_skill01_02",
+        "11091201_skill01_03",
+        "11091201_skill01_bisha_03",
+        "11091201_skill01_bisha_02",
+        "11091201_skill01_bisha_01",
+        "11091201_skill01_tips",
+        "11009201_attack03"
+      ]
+    },
+    {
+      "name": "11094101",
+      "singlePack": 0,
+      "id": 11094101,
+      "effects": [
+        "11094101_attack01",
+        "11094101_attack02",
+        "11094101_attack03",
+        "11094101_skill01_qs",
+        "11094101_skill01",
+        "11094101_skill01_1",
+        "11094101_skill01_end",
+        "11094101_skill01_tips",
+        "11094101_combo01",
+        "11094101_passive01"
+      ]
+    },
+    {
+      "name": "11096101",
+      "singlePack": 0,
+      "id": 11096101,
+      "effects": [
+        "11096101_attack02",
+        "11096101_attack03",
+        "11096101_skill01",
+        "11096101_skill01_1",
+        "11096101_skill01_2",
+        "11096101_skill02",
+        "11096101_skill01_tips",
+        "11096101_combo01",
+        "11096101_passive01"
+      ]
+    },
+    {
+      "name": "11097101",
+      "singlePack": 0,
+      "id": 11097101,
+      "effects": [
+        "11097101_attack01_01",
+        "14001501_attack05_02",
+        "11097101_skill01",
+        "11097101_skill01_tips",
+        "11097101_combo01"
+      ]
+    },
+    {
+      "name": "11097102",
+      "singlePack": 0,
+      "id": 11097102,
+      "effects": [
+        "11097102_entry",
+        "11097102_attack01"
+      ]
+    },
+    {
+      "name": "11099101",
+      "singlePack": 1,
+      "id": 11099101,
+      "effects": [
+        "11099101_attack01",
+        "11099101_attack02",
+        "11099101_attack03",
+        "11099101_skill01_sf",
+        "11099101_skill01_sf_1",
+        "11099101_skill01_tips",
+        "11099101_combo01"
+      ]
+    },
+    {
+      "name": "11100101",
+      "singlePack": 0,
+      "id": 11100101,
+      "effects": [
+        "11100101_attack04",
+        "11100101_attack01",
+        "11100101_attack02",
+        "11100101_skill01_02",
+        "11100101_skill01_02_bisha",
+        "11100101_skill01_tips",
+        "11100101_combo01",
+        "11100101_attack05"
+      ]
+    },
+    {
+      "name": "11102101",
+      "singlePack": 0,
+      "id": 11102101,
+      "effects": [
+        "11102101_attack01",
+        "11102101_skill01",
+        "11102101_skill01_bisha",
+        "11102101_skill01_tips",
+        "11102101_combo02",
+        "11102101_combo01",
+        "11102101_skill02",
+        "11102101_skill02_tips"
+      ]
+    },
+    {
+      "name": "11103101",
+      "singlePack": 0,
+      "id": 11103101,
+      "effects": [
+        "11103101_attack01",
+        "11103101_attack02",
+        "11103101_attack03",
+        "11103101_skill01",
+        "11103101_skill01_bisha",
+        "11103101_skill01_tips",
+        "11103101_combo01",
+        "11103101_combo03",
+        "11103101_combo02"
+      ]
+    },
+    {
+      "name": "11104101",
+      "singlePack": 0,
+      "id": 11104101,
+      "effects": [
+        "11104101_attack02",
+        "11104101_skill01",
+        "11104101_skill01_tips",
+        "00000000_skill01_023",
+        "11019101_combo03",
+        "11104101_skill03"
+      ]
+    },
+    {
+      "name": "11105101",
+      "singlePack": 0,
+      "id": 11105101,
+      "effects": [
+        "11105101_attack01",
+        "11105101_skill01_01",
+        "11105101_skill01_tips",
+        "11105101_skill02"
+      ]
+    },
+    {
+      "name": "11106101",
+      "singlePack": 0,
+      "id": 11106101,
+      "effects": [
+        "11106101_attack01",
+        "11106101_attack02",
+        "11106101_attack03",
+        "11106101_skill01_01",
+        "11106101_skill01_02",
+        "11106101_skill01_tips",
+        "11106101_skill01_02_bisha",
+        "11106101_combo01"
+      ]
+    },
+    {
+      "name": "11106201",
+      "singlePack": 0,
+      "id": 11106201,
+      "effects": [
+        "11106201_skill04",
+        "11106201_skill04_hit",
+        "11106201_skill04_bisha",
+        "11106201_skill04_tips",
+        "11106201_combo02",
+        "11106201_combo01"
+      ]
+    },
+    {
+      "name": "11107101",
+      "singlePack": 0,
+      "id": 11107101,
+      "effects": [
+        "11107101_skill01",
+        "11107101_skill01_bisha",
+        "11107101_skill01_tips",
+        "11107101_combo01"
+      ]
+    },
+    {
+      "name": "11108101",
+      "singlePack": 0,
+      "id": 11108101,
+      "effects": []
+    },
+    {
+      "name": "11109101",
+      "singlePack": 0,
+      "id": 11109101,
+      "effects": [
+        "11109101_entry",
+        "11109101_attack01",
+        "11109101_attack02",
+        "11109101_attack03",
+        "11109101_skill01",
+        "11109101_skill01_tips",
+        "11109101_combo",
+        "11109101_passive04",
+        "11109101_passive01",
+        "11109101_passive02",
+        "11109101_passive03_qishou",
+        "11109101_passive03_huli",
+        "11109101_passive03_chongci",
+        "11109101_passive03_changjing",
+        "11109101_passive03_baozha",
+        "11109101_passive03_jiewei"
+      ]
+    },
+    {
+      "name": "11109201",
+      "singlePack": 0,
+      "id": 11109201,
+      "effects": [
+        "11109201_attack01",
+        "11109201_attack02",
+        "11109201_attack03",
+        "11109201_skill01",
+        "11109201_skill01_boom",
+        "11109201_skill01_penhuo",
+        "11109201_skill01_tips",
+        "11109201_combo01",
+        "11109201_passive01"
+      ]
+    },
+    {
+      "name": "11109301",
+      "singlePack": 1,
+      "id": 11109301,
+      "effects": [
+        "11109301_entry",
+        "11109301_attack01",
+        "11109301_skill01_01_qs",
+        "11109301_skill01_02_hit01",
+        "11109301_skill01_02_hit01env",
+        "11109301_skill01_02_hit02big01",
+        "11109301_skill01_02_hit02big02",
+        "11109301_skill01_03_env",
+        "11109301_skill01_04_end",
+        "11109301_skill01_tips",
+        "11109301_combo01",
+        "11109301_passive01",
+        "11109301_passive02",
+        "11109301_passive03",
+        "11119201_passive01"
+      ]
+    },
+    {
+      "name": "11115101",
+      "singlePack": 0,
+      "id": 11115101,
+      "effects": [
+        "11115101_attack01",
+        "11115101_skill01",
+        "11115101_skill02",
+        "11115101_skill01_bisha",
+        "11115101_skill01_tips",
+        "11115101_combo02",
+        "11115101_combo01"
+      ]
+    },
+    {
+      "name": "11116101",
+      "singlePack": 0,
+      "id": 11116101,
+      "effects": [
+        "11116101_attack01",
+        "11116101_skill01",
+        "11116101_skill01_bisha",
+        "11116101_skill01_tips",
+        "11116101_combo01",
+        "11116101_skill2_0",
+        "11116101_skill2_1",
+        "11116101_skill2_2",
+        "11116101_skill2_3",
+        "11116101_skill2_4"
+      ]
+    },
+    {
+      "name": "11116201",
+      "singlePack": 0,
+      "id": 11116201,
+      "effects": [
+        "11116201_attack01",
+        "11116201_attack02",
+        "11116201_attack03",
+        "11116201_skill01_01_qs",
+        "11116201_skill01_02_main",
+        "11116201_skill01_03_BG",
+        "11116201_skill01_01_qsbisha",
+        "11116201_skill01_tips",
+        "11116201_combo01",
+        "11116201_passive01",
+        "11116201_passive02",
+        "11116201_skill02_01_qs01",
+        "11116201_skill02_04_boom01",
+        "11116201_skill02_05_end"
+      ]
+    },
+    {
+      "name": "11117101",
+      "singlePack": 0,
+      "id": 11117101,
+      "effects": [
+        "11117101_attack01",
+        "11117101_skill01",
+        "11117101_skill01_hit",
+        "11117101_skill01_tips",
+        "11117101_combo01",
+        "11117101_skill03",
+        "11117101_skill03_1",
+        "11117101_skill03_2"
+      ]
+    },
+    {
+      "name": "11117201",
+      "singlePack": 1,
+      "id": 11117201,
+      "effects": [
+        "11117201_attack01",
+        "11117201_skill01_01",
+        "11117201_skill01_02",
+        "11117201_skill01_03",
+        "11117201_skill01_tips",
+        "11117201_combo01",
+        "11117201_passive01",
+        "11117201_passive02",
+        "00000000_skill01_04"
+      ]
+    },
+    {
+      "name": "11118101",
+      "singlePack": 1,
+      "id": 11118101,
+      "effects": [
+        "11118101_attack01",
+        "11118101_skill01",
+        "11118101_skill01_bisha",
+        "11118101_skill01_tips",
+        "11118101_combo01",
+        "11118101_skill02_1",
+        "11118101_skill02_2",
+        "11118101_skill02_3"
+      ]
+    },
+    {
+      "name": "11118201",
+      "singlePack": 1,
+      "id": 11118201,
+      "effects": [
+        "11118101_attack01",
+        "11118201_skill01_01_qs",
+        "11118201_skill01_03_fly",
+        "11118201_skill01_tips",
+        "11118201_combo01",
+        "14001101_skill03_1_buff",
+        "11118201_passive02"
+      ]
+    },
+    {
+      "name": "11119101",
+      "singlePack": 0,
+      "id": 11119101,
+      "effects": [
+        "11119101_attack01",
+        "11119101_attack02",
+        "11119101_attack03",
+        "11119101_skill01",
+        "11119101_skill01_bisha01",
+        "11119101_skill01_tips",
+        "11119101_skill01_bisha02",
+        "11119101_combo01",
+        "11119101_combo01_hit",
+        "11119101_skill02_1",
+        "11119101_skill02_4",
+        "11119101_skill02_5"
+      ]
+    },
+    {
+      "name": "11119201",
+      "singlePack": 0,
+      "id": 11119201,
+      "effects": [
+        "11119201_attack01_hit",
+        "11119201_attack01",
+        "11119201_attack02_hit",
+        "11119201_attack02",
+        "11119201_attack03_hit",
+        "11119201_attack03",
+        "11119201_skill01_qs",
+        "11119201_skill01_bz4",
+        "11119201_skill01_bz4_cj",
+        "11119201_skill01_bz5",
+        "11119201_skill01_bz5_cj",
+        "11119201_skill01_canliu",
+        "11119201_skill01_tips",
+        "11119101_combo01",
+        "11119101_combo01_hit",
+        "11001901_passive02",
+        "11119201_passive01"
+      ]
+    },
+    {
+      "name": "11120101",
+      "singlePack": 0,
+      "id": 11120101,
+      "effects": [
+        "11120101_attack03",
+        "11120101_attack01_hit 2",
+        "11120101_attack02",
+        "11120101_attack01_hit 1",
+        "11120101_attack01",
+        "11120101_attack03_hit 1",
+        "11120101_skill01",
+        "11120101_skill01_bisha",
+        "11120101_skill01_tips",
+        "11120101_combo01",
+        "11120101_skill02_2"
+      ]
+    },
+    {
+      "name": "11120201",
+      "singlePack": 0,
+      "id": 11120201,
+      "effects": [
+        "11120201_attack01",
+        "11120201_attack02",
+        "11120201_attack03",
+        "11120201_skill01_04_sf",
+        "11120201_skill01_04_sf1",
+        "11120201_skill01_04_sf2",
+        "11120201_skill01_04_chong",
+        "11120201_skill01_04_gz",
+        "11120201_skill01_04_fw",
+        "11120201_skill01_04_end01",
+        "11120201_skill01_tips",
+        "11120201_skill01_04_sf_b",
+        "11120201_combo01",
+        "11120201_combo02",
+        "11120201_passive",
+        "11119201_passive01"
+      ]
+    },
+    {
+      "name": "11121101",
+      "singlePack": 0,
+      "id": 11121101,
+      "effects": [
+        "11121101_attack03",
+        "11121101_skill01",
+        "11121101_skill01_tips",
+        "11121101_combo01",
+        "11121101_skill02_01",
+        "11121101_skill02_03",
+        "11121101_skill02_04"
+      ]
+    },
+    {
+      "name": "11121201",
+      "singlePack": 0,
+      "id": 11121201,
+      "effects": [
+        "11121201_attack01",
+        "11121201_skill01_penqi",
+        "11121201_skill01_canliu",
+        "11121201_skill02_tips",
+        "11121201_skill02_01_qs",
+        "11121201_skill02_03_end",
+        "11121201_skill03_tips",
+        "11121201_combo01",
+        "11121201_passive01",
+        "11121201_passive02",
+        "11121201_passive04",
+        "00000000_skill01_04"
+      ]
+    },
+    {
+      "name": "11122101",
+      "singlePack": 0,
+      "id": 11122101,
+      "effects": [
+        "11122101_attack01",
+        "11122101_attack02",
+        "11122101_attack03",
+        "11122101_skill01",
+        "11122101_skill01_tips",
+        "11122101_combo01"
+      ]
+    },
+    {
+      "name": "11123101",
+      "singlePack": 0,
+      "id": 11123101,
+      "effects": [
+        "11123101_attack01",
+        "11123101_attack02",
+        "11123101_attack03",
+        "11123101_skill01",
+        "11123101_skill01_tips",
+        "11123101_combo01"
+      ]
+    },
+    {
+      "name": "11123201",
+      "singlePack": 0,
+      "id": 11123201,
+      "effects": [
+        "11123201_attack_01",
+        "11123201_skill01_qishou",
+        "11123201_skill01_qishou_2",
+        "11123201_skill01_yuanjing",
+        "11123201_skill01_yuanjing_2",
+        "11123201_skill01_baoza",
+        "11123201_skill01_baoza_2",
+        "11123201_skill01_jiewei",
+        "11123201_skill01_yuanjing_bisha",
+        "11123201_skill01_yuanjing_bisha_2",
+        "11123201_skill01_tips",
+        "11123201_combo01",
+        "11123201_passive02",
+        "11123201_passive01",
+        "Halo_haian"
+      ]
+    },
+    {
+      "name": "11125101",
+      "singlePack": 0,
+      "id": 11125101,
+      "effects": [
+        "11125101_attack_02",
+        "11125101_attack_03",
+        "11125101_skill01",
+        "11125101_skill01_bisha",
+        "11125101_skill01_tips",
+        "11125101_combo01"
+      ]
+    },
+    {
+      "name": "11126101",
+      "singlePack": 0,
+      "id": 11126101,
+      "effects": [
+        "11126101_attack_01",
+        "11126101_attack_02",
+        "11126101_skill01_01",
+        "11126101_skill01_02",
+        "11126101_skill01_09",
+        "11126101_skill01_tips",
+        "11126101_combo_01"
+      ]
+    },
+    {
+      "name": "11126201",
+      "singlePack": 0,
+      "id": 11126201,
+      "effects": [
+        "11126201_attack01",
+        "11126201_attack02",
+        "11126201_attack03",
+        "11126201_skill01_01_qs01",
+        "11126201_skill01_01_qs02",
+        "11126201_skill01_02_drive",
+        "11126201_skill01_02_main01",
+        "11126201_skill01_02_main02",
+        "11126201_skill01_03_end01",
+        "11126201_skill01_01_qs01bisha",
+        "11126201_skill01_tips",
+        "11126201_combo01"
+      ]
+    },
+    {
+      "name": "11128101",
+      "singlePack": 0,
+      "id": 11128101,
+      "effects": [
+        "11128101_attack01",
+        "11128101_attack02",
+        "11128101_attack03",
+        "11128101_skill01",
+        "11128101_skill01_tips",
+        "11128101_combo01",
+        "11128101_passive01"
+      ]
+    },
+    {
+      "name": "11129101",
+      "singlePack": 0,
+      "id": 11129101,
+      "effects": [
+        "11129101_attack01",
+        "11129101_attack02",
+        "11129101_skill01",
+        "11129101_skill01_01",
+        "11129101_skill01_tips_1",
+        "11129101_skill02_qishou_1",
+        "11129101_skill02_tiaoqi_1",
+        "11129101_skill02_chadi_1",
+        "11129101_skill02_zhuanchang_1",
+        "11129101_skill02_baozha_1",
+        "11129101_skill02_baozha_2",
+        "11129101_skill02_baozha_3",
+        "11129101_skill02_baozha_4",
+        "11129101_skill02_jiewei",
+        "11129101_skill02_tips",
+        "11129101_combo01",
+        "11129101_combo02",
+        "11129101_skill01_tips_1_1",
+        "11129101_skill03_tips"
+      ]
+    },
+    {
+      "name": "11131101",
+      "singlePack": 0,
+      "id": 11131101,
+      "effects": [
+        "11131101_attack01",
+        "11131101_attack02",
+        "11131101_attack03",
+        "11131101_skill01",
+        "11131101_skill02",
+        "11131101_skill02_02",
+        "11131101_skill01_01",
+        "11131101_skill01_01_01",
+        "11131101_skill01_01_02",
+        "11131101_skill01_03",
+        "11131101_skill01_bisha",
+        "11131101_skill01_bisha_01",
+        "11131101_skill01_tips",
+        "11131101_skill01_tips_01",
+        "11131101_combo01",
+        "11131101_passive01",
+        "11131101_skill02_01",
+        "11131101_skill01_02",
+        "11131101_skill01_02_01",
+        "11131101_skill01_02_02"
+      ]
+    },
+    {
+      "name": "11131201",
+      "singlePack": 0,
+      "id": 11131201,
+      "effects": [
+        "11131201_attack01",
+        "11131201_attack02",
+        "11131201_attack03",
+        "11131201_skill01_begin",
+        "11131201_skill01",
+        "11131201_skill01_02",
+        "11131201_skill01_03",
+        "11131201_skill01_04",
+        "11131201_skill01_jinjiao",
+        "11131201_skill01_end",
+        "11131201_skill01_04_bisha",
+        "11131201_skill01_tips",
+        "11131201_combo01",
+        "11131201_passive01",
+        "11131201_skill03"
+      ]
+    },
+    {
+      "name": "11131301",
+      "singlePack": 0,
+      "id": 11131301,
+      "effects": [
+        "11131201_attack06_01",
+        "11131201_attack06_02",
+        "11131301_skill01_begin",
+        "11131201_skill01",
+        "11131201_skill01_02",
+        "11131201_skill01_03",
+        "11131201_skill01_04",
+        "11131201_skill01_jinjiao",
+        "11131201_skill01_end",
+        "11131201_skill01_04_bisha",
+        "11131201_skill01_tips",
+        "11131201_combo02",
+        "11131201_passive02"
+      ]
+    },
+    {
+      "name": "11132101",
+      "singlePack": 0,
+      "id": 11132101,
+      "effects": [
+        "11132101_passive01",
+        "11132101_attack01",
+        "11132101_skill01",
+        "11132101_skill01_bisha",
+        "11132101_skill01_tips",
+        "11132101_combo01",
+        "11132101_passive02"
+      ]
+    },
+    {
+      "name": "11133101",
+      "singlePack": 0,
+      "id": 11133101,
+      "effects": [
+        "11133101_passive02",
+        "11133101_attack_01",
+        "11133101_attack_02",
+        "11133101_attack_03",
+        "11133101_skill01",
+        "11133101_skill03",
+        "11133101_skill04",
+        "11133101_skill05",
+        "11133101_skill02",
+        "11133101_skill01_tips",
+        "11133101_combo01",
+        "11133101_passive01",
+        "11133101_passive03"
+      ]
+    },
+    {
+      "name": "11134101",
+      "singlePack": 0,
+      "id": 11134101,
+      "effects": [
+        "11134101_attack01",
+        "11134101_attack01_01",
+        "11134101_skill01",
+        "11134101_skill01_01",
+        "11134101_skill01_02",
+        "11134101_skill01_02_bisha",
+        "11134101_skill01_02_bisha_01",
+        "11134101_skill01_03",
+        "11134101_skill01_03_01",
+        "11134101_skill01_03_02",
+        "11134101_skill01_03_03",
+        "11134101_skill01_03_04",
+        "11134101_skill01_zz",
+        "11134101_skill01_tips",
+        "11134101_skill01_03_bisha",
+        "11134101_skill01_03_bisha_01",
+        "11134101_skill01_03_bisha_02",
+        "11134101_skill01_03_bisha_03",
+        "11134101_combo01",
+        "11134101_passive03",
+        "11134101_passive01"
+      ]
+    },
+    {
+      "name": "11135101",
+      "singlePack": 0,
+      "id": 11135101,
+      "effects": [
+        "11135101_passive02",
+        "11135101_attack01",
+        "11135101_skill01_01",
+        "11135101_skill01_02",
+        "11135101_skill01_03",
+        "11135101_skill01_04",
+        "11135101_skill01_tips",
+        "11135101_combo01",
+        "11135101_passive01",
+        "11135101_passive03"
+      ]
+    },
+    {
+      "name": "11136101",
+      "singlePack": 0,
+      "id": 11136101,
+      "effects": [
+        "11136101_passive01",
+        "11136101_attack03",
+        "11136101_skill01",
+        "11136101_skill01_01",
+        "11136101_skill01_02",
+        "11136101_skill01_tips",
+        "11136101_combo01",
+        "00000000_buff_commonup_01",
+        "11136101_passive02"
+      ]
+    },
+    {
+      "name": "11137101",
+      "singlePack": 0,
+      "id": 11137101,
+      "effects": [
+        "11137101_combo01",
+        "11137101_skill01_qs",
+        "11137101_skill01",
+        "11137101_skill01_1",
+        "11137101_skill01_2",
+        "11137101_skill01_6",
+        "11137101_skill01_3",
+        "11137101_skill01_4",
+        "11137101_skill01_4_1",
+        "11137101_skill01_5",
+        "11137101_skill01_tips",
+        "11137101_attack01",
+        "11137101_passive01",
+        "11096101_passive01"
+      ]
+    },
+    {
+      "name": "11137201",
+      "singlePack": 0,
+      "id": 11137201,
+      "effects": [
+        "11137201_entry",
+        "11137201_dead",
+        "11137101_combo01",
+        "11096101_passive01"
+      ]
+    },
+    {
+      "name": "11138101",
+      "singlePack": 0,
+      "id": 11138101,
+      "effects": [
+        "11138101_attack03",
+        "11138101_skill01_01_zh",
+        "11138101_skill01_02_fatfly",
+        "11138101_skill01_03_bd",
+        "11138101_skill01_04_boom",
+        "11138101_skill01_04_boom_man",
+        "11138101_skill01_05_cl",
+        "11138101_skill01_tips",
+        "11138101_combo01",
+        "11138101_passive02",
+        "11138101_passive01"
+      ]
+    },
+    {
+      "name": "11138201",
+      "singlePack": 0,
+      "id": 11138201,
+      "effects": [
+        "11138201_attack01",
+        "11138201_combo01"
+      ]
+    },
+    {
+      "name": "11139101",
+      "singlePack": 0,
+      "id": 11139101,
+      "effects": [
+        "11139101_attack01",
+        "11139101_skill_01",
+        "11139101_skill_01_01",
+        "11139101_skill_01_02",
+        "11139101_skill_01_04",
+        "11139101_skill_01_03",
+        "11139101_skill01_tips",
+        "11139101_combo01",
+        "11139101_combo02",
+        "00000000_buff_commonup_01"
+      ]
+    },
+    {
+      "name": "11140101",
+      "singlePack": 0,
+      "id": 11140101,
+      "effects": [
+        "11140101_Passive01",
+        "11140101_attack01",
+        "11140101_attack02",
+        "11140101_attack03",
+        "11140101_skill01_sh",
+        "11140101_skill01_tips",
+        "11140101_skill01_bisha",
+        "11140101_combo01",
+        "11140101_combo01_1",
+        "11140101_passive02",
+        "11140101_passive03",
+        "11140101_passive04"
+      ]
+    },
+    {
+      "name": "11141101",
+      "singlePack": 0,
+      "id": 11141101,
+      "effects": [
+        "11141101_attack01",
+        "11141101_attack02",
+        "11141101_attack03",
+        "11141101_skill01_01_qs",
+        "11141101_skill01_02_Rock01",
+        "11141101_skill01_02_Rock02",
+        "11141101_skill01_03_hand",
+        "11141101_skill01_04_hit01",
+        "11141101_skill01_04_hit02",
+        "11141101_skill01_05_boom01",
+        "11141101_skill01_06_end",
+        "11141101_skill01_tips",
+        "11141101_combo01",
+        "11119201_passive01"
+      ]
+    },
+    {
+      "name": "11142101",
+      "singlePack": 0,
+      "id": 11142101,
+      "effects": [
+        "11142101_skill01_bisha01",
+        "11142101_skill01_bisha02",
+        "00000000_skill01_07",
+        "11142101_skill01_tips",
+        "11142101_combo01"
+      ]
+    },
+    {
+      "name": "11143101",
+      "singlePack": 0,
+      "id": 11143101,
+      "effects": [
+        "11143101_attack01",
+        "11143101_attack02",
+        "11143101_attack03",
+        "11143101_attack01_1",
+        "11143101_attack01_2",
+        "11143101_attack01_3",
+        "11143101_skill01_0",
+        "11143101_skill01_1_1",
+        "11143101_skill01_1_2",
+        "11143101_skill01_2",
+        "11143101_skill01_3",
+        "11143101_skill01_4_1",
+        "11143101_skill01_4_2",
+        "11143101_skill01_end",
+        "11143101_skill01_tips",
+        "11143101_combo01",
+        "11143101_combo01_1",
+        "11143101_passive01"
+      ]
+    },
+    {
+      "name": "12990012",
+      "singlePack": 0,
+      "id": 12990012,
+      "effects": [
+        "11001101_attack01",
+        "12990012_skill01",
+        "11001101_passive01_01",
+        "11001101_passive01_02"
+      ]
+    },
+    {
+      "name": "12990013",
+      "singlePack": 0,
+      "id": 12990013,
+      "effects": [
+        "13010001_chuansong"
+      ]
+    },
+    {
+      "name": "12990014",
+      "singlePack": 0,
+      "id": 12990014,
+      "effects": []
+    },
+    {
+      "name": "13001001",
+      "singlePack": 0,
+      "id": 13001001,
+      "effects": [
+        "13001001_attack01",
+        "00000000_attack09",
+        "13001001_skill01_01",
+        "13001001_skill02_01",
+        "13001001_skill02_02",
+        "13001001_skill03"
+      ]
+    },
+    {
+      "name": "13002001",
+      "singlePack": 0,
+      "id": 13002001,
+      "effects": [
+        "13002001_attack01",
+        "13002001_skill01",
+        "13002001_skill02",
+        "13002001_skill03"
+      ]
+    },
+    {
+      "name": "13003001",
+      "singlePack": 0,
+      "id": 13003001,
+      "effects": [
+        "13003001_attack02",
+        "13006001_skill01",
+        "13003001_skill01"
+      ]
+    },
+    {
+      "name": "13004001",
+      "singlePack": 0,
+      "id": 13004001,
+      "effects": [
+        "13004001_attack01_01",
+        "13004001_attack01_02",
+        "13004001_skill01",
+        "13004001_skill02"
+      ]
+    },
+    {
+      "name": "13006001",
+      "singlePack": 0,
+      "id": 13006001,
+      "effects": [
+        "13006001_attack01",
+        "13006001_attack02",
+        "13006001_attack03",
+        "13006001_skill01",
+        "13006001_skill02",
+        "13006001_skill01_hit"
+      ]
+    },
+    {
+      "name": "13007001",
+      "singlePack": 0,
+      "id": 13007001,
+      "effects": [
+        "13007001_dead",
+        "13007001_attack01",
+        "13008001_attack01",
+        "13007001_skill01_01",
+        "13007001_skill01_04",
+        "13007001_skill01_05",
+        "13007001_skill01_06"
+      ]
+    },
+    {
+      "name": "13008001",
+      "singlePack": 0,
+      "id": 13008001,
+      "effects": [
+        "13007001_dead",
+        "13007001_attack01",
+        "13008001_attack01",
+        "13008001_skill01_qishou",
+        "13008001_skill01_changjing",
+        "13008001_skill01_changjing_2",
+        "13008001_skill01_luolei",
+        "13008001_skill01_zhuanchang",
+        "13008001_skill01_jiewei"
+      ]
+    },
+    {
+      "name": "13009001",
+      "singlePack": 0,
+      "id": 13009001,
+      "effects": [
+        "13009001_attack01",
+        "13009001_skill01",
+        "13009001_skill02"
+      ]
+    },
+    {
+      "name": "13010001",
+      "singlePack": 0,
+      "id": 13010001,
+      "effects": [
+        "13010001_idle01",
+        "13010001_skill11",
+        "13010001_skill10",
+        "13010001_attack01",
+        "13010001_attack02",
+        "13010001_skill01_01",
+        "13010001_skill01_04",
+        "13010001_skill01_042",
+        "13010001_skill01_043"
+      ]
+    },
+    {
+      "name": "13010002",
+      "singlePack": 0,
+      "id": 13010002,
+      "effects": [
+        "13010002_idle01",
+        "13010002_attack01",
+        "13010002_attack02",
+        "13010002_skill01",
+        "13010002_skill01_diaoluo"
+      ]
+    },
+    {
+      "name": "14001101",
+      "singlePack": 1,
+      "id": 14001101,
+      "effects": [
+        "14001101_attack01",
+        "14001101_attack02",
+        "14001101_skill01",
+        "14001101_skill02",
+        "14001101_skill03_1",
+        "14001101_skill03_2",
+        "14001101_skill01_bisha",
+        "14001101_skill01_tips",
+        "14001101_skill02_bisha",
+        "14001101_skill02_tips",
+        "14001101_skill03_tips",
+        "14001101_skill03_1_bisha",
+        "14001101_combo03",
+        "14001101_passive02_01",
+        "14001101_passive02_02",
+        "14001101_combo01",
+        "14001101_combo02",
+        "sp_tlskill_01_combo1",
+        "sp_tlskill_01_combo2",
+        "sp_tlskill_01_combo3",
+        "sp_tlskill_02_combo1",
+        "sp_tlskill_02_combo2",
+        "sp_tlskill_02_combo3",
+        "sp_tlskill_03_combo1",
+        "sp_tlskill_03_combo2",
+        "sp_tlskill_03_combo3",
+        "sp_tlskill_06_combo1",
+        "sp_tlskill_06_combo2",
+        "sp_tlskill_06_combo3",
+        "sp_tlskill_07_combo1",
+        "sp_tlskill_07_combo2",
+        "sp_tlskill_07_combo3",
+        "sp_tlskill_10_combo1",
+        "sp_tlskill_10_combo2",
+        "sp_tlskill_10_combo3",
+        "sp_tlskill_11_combo1",
+        "sp_tlskill_11_combo2",
+        "sp_tlskill_11_combo3",
+        "sp_tlskill_14_combo1",
+        "sp_tlskill_14_combo2",
+        "sp_tlskill_14_combo3",
+        "sp_tlskill_15_combo1",
+        "sp_tlskill_15_combo3",
+        "sp_tlskill_15_combo2",
+        "sp_tlskill_18_combo1",
+        "sp_tlskill_18_combo2",
+        "sp_tlskill_18_combo2_01",
+        "sp_tlskill_18_combo3",
+        "sp_tlskill_19_combo1",
+        "sp_tlskill_19_combo2",
+        "sp_tlskill_19_combo3",
+        "sp_tlskill_21_combo1",
+        "sp_tlskill_21_combo2",
+        "sp_tlskill_21_combo3_fazhen",
+        "sp_tlskill_21_combo3_yan",
+        "sp_tlskill_21_combo3"
+      ]
+    },
+    {
+      "name": "14001201",
+      "singlePack": 1,
+      "id": 14001201,
+      "effects": [
+        "14001201_attack01",
+        "14001201_attack02",
+        "14001201_attack03",
+        "14001201_attack04",
+        "14001201_attack05",
+        "14001201_skill01",
+        "14001201_skill01_front",
+        "14001201_skill02",
+        "14001201_skill03",
+        "14001201_skill01_bisha",
+        "14001201_skill01_tips",
+        "14001201_skill02_bisha",
+        "14001201_skill02_tips",
+        "14001201_skill03_bisha",
+        "14001201_skill03_tips",
+        "14001201_combo01",
+        "14001201_combo02",
+        "14001201_combo03",
+        "14001201_combo04",
+        "sp_tlskill_01_combo1",
+        "sp_tlskill_01_combo2",
+        "sp_tlskill_01_combo3",
+        "sp_tlskill_02_combo1",
+        "sp_tlskill_02_combo2",
+        "sp_tlskill_02_combo3",
+        "sp_tlskill_03_combo1",
+        "sp_tlskill_03_combo2",
+        "sp_tlskill_03_combo3",
+        "sp_tlskill_06_combo1",
+        "sp_tlskill_06_combo2",
+        "sp_tlskill_06_combo3",
+        "sp_tlskill_07_combo1",
+        "sp_tlskill_07_combo2",
+        "sp_tlskill_07_combo3",
+        "sp_tlskill_10_combo1",
+        "sp_tlskill_10_combo2",
+        "sp_tlskill_10_combo3",
+        "sp_tlskill_11_combo1",
+        "sp_tlskill_11_combo2",
+        "sp_tlskill_11_combo3",
+        "sp_tlskill_14_combo1",
+        "sp_tlskill_14_combo2",
+        "sp_tlskill_14_combo3",
+        "sp_tlskill_15_combo1",
+        "sp_tlskill_15_combo3",
+        "sp_tlskill_15_combo2",
+        "sp_tlskill_18_combo1",
+        "sp_tlskill_18_combo2",
+        "sp_tlskill_18_combo2_01",
+        "sp_tlskill_18_combo3",
+        "sp_tlskill_19_combo1",
+        "sp_tlskill_19_combo2",
+        "sp_tlskill_19_combo3",
+        "sp_tlskill_21_combo1",
+        "sp_tlskill_21_combo2",
+        "sp_tlskill_21_combo3_fazhen",
+        "sp_tlskill_21_combo3_yan",
+        "sp_tlskill_21_combo3"
+      ]
+    },
+    {
+      "name": "14001301",
+      "singlePack": 1,
+      "id": 14001301,
+      "effects": [
+        "14001301_attack01",
+        "14001301_combo01",
+        "14001301_attack02",
+        "14001301_attack03",
+        "14001301_attack05",
+        "14001301_skill01",
+        "14001301_skill02",
+        "14001301_skill02_front",
+        "14001301_skill01_bisha",
+        "14001301_skill01_tips",
+        "14001301_skill02_bisha",
+        "14001301_skill02_tips",
+        "14001301_skill03_tips",
+        "14001301_skill03_01_bisha",
+        "14001301_combo02",
+        "sp_tlskill_01_combo1",
+        "sp_tlskill_01_combo2",
+        "sp_tlskill_01_combo3",
+        "sp_tlskill_02_combo1",
+        "sp_tlskill_02_combo2",
+        "sp_tlskill_02_combo3",
+        "sp_tlskill_03_combo1",
+        "sp_tlskill_03_combo2",
+        "sp_tlskill_03_combo3",
+        "sp_tlskill_06_combo1",
+        "sp_tlskill_06_combo2",
+        "sp_tlskill_06_combo3",
+        "sp_tlskill_07_combo1",
+        "sp_tlskill_07_combo2",
+        "sp_tlskill_07_combo3",
+        "sp_tlskill_10_combo1",
+        "sp_tlskill_10_combo2",
+        "sp_tlskill_10_combo3",
+        "sp_tlskill_11_combo1",
+        "sp_tlskill_11_combo2",
+        "sp_tlskill_11_combo3",
+        "sp_tlskill_14_combo1",
+        "sp_tlskill_14_combo2",
+        "sp_tlskill_14_combo3",
+        "sp_tlskill_15_combo1",
+        "sp_tlskill_15_combo3",
+        "sp_tlskill_15_combo2",
+        "sp_tlskill_18_combo1",
+        "sp_tlskill_18_combo2",
+        "sp_tlskill_18_combo2_01",
+        "sp_tlskill_18_combo3",
+        "sp_tlskill_19_combo1",
+        "sp_tlskill_19_combo2",
+        "sp_tlskill_19_combo3",
+        "sp_tlskill_21_combo1",
+        "sp_tlskill_21_combo2",
+        "sp_tlskill_21_combo3_fazhen",
+        "sp_tlskill_21_combo3_yan",
+        "sp_tlskill_21_combo3"
+      ]
+    },
+    {
+      "name": "14001401",
+      "singlePack": 1,
+      "id": 14001401,
+      "effects": [
+        "14001401_attack01",
+        "14001401_attack02_01",
+        "14001401_attack02_02",
+        "14001401_attack03",
+        "14001401_skill01",
+        "14001401_skill02",
+        "14001401_skill03_01",
+        "14001401_skill03_02",
+        "14001401_skill01_bisha",
+        "14001401_skill01_tips",
+        "14001401_skill02_tips",
+        "14001401_skill02_bisha",
+        "14001401_skill03_01_bisha",
+        "14001401_skill03_tips",
+        "14001401_combo03",
+        "14001201_attack05",
+        "14001401_combo01",
+        "14001401_combo02",
+        "sp_tlskill_01_combo1",
+        "sp_tlskill_01_combo2",
+        "sp_tlskill_01_combo3",
+        "sp_tlskill_02_combo1",
+        "sp_tlskill_02_combo2",
+        "sp_tlskill_02_combo3",
+        "sp_tlskill_03_combo1",
+        "sp_tlskill_03_combo2",
+        "sp_tlskill_03_combo3",
+        "sp_tlskill_06_combo1",
+        "sp_tlskill_06_combo2",
+        "sp_tlskill_06_combo3",
+        "sp_tlskill_07_combo1",
+        "sp_tlskill_07_combo2",
+        "sp_tlskill_07_combo3",
+        "sp_tlskill_10_combo1",
+        "sp_tlskill_10_combo2",
+        "sp_tlskill_10_combo3",
+        "sp_tlskill_11_combo1",
+        "sp_tlskill_11_combo2",
+        "sp_tlskill_11_combo3",
+        "sp_tlskill_14_combo1",
+        "sp_tlskill_14_combo2",
+        "sp_tlskill_14_combo3",
+        "sp_tlskill_15_combo1",
+        "sp_tlskill_15_combo3",
+        "sp_tlskill_15_combo2",
+        "sp_tlskill_18_combo1",
+        "sp_tlskill_18_combo2",
+        "sp_tlskill_18_combo2_01",
+        "sp_tlskill_18_combo3",
+        "sp_tlskill_19_combo1",
+        "sp_tlskill_19_combo2",
+        "sp_tlskill_19_combo3",
+        "sp_tlskill_21_combo1",
+        "sp_tlskill_21_combo2",
+        "sp_tlskill_21_combo3_fazhen",
+        "sp_tlskill_21_combo3_yan",
+        "sp_tlskill_21_combo3"
+      ]
+    },
+    {
+      "name": "14001501",
+      "singlePack": 1,
+      "id": 14001501,
+      "effects": [
+        "14001501_attack02",
+        "14001501_attack03",
+        "14001501_attack04",
+        "14001501_attack05_01",
+        "14001501_attack05_02",
+        "14001501_skill01",
+        "14001501_skill02",
+        "14001501_skill03_02",
+        "14001501_skill01_bisha",
+        "14001501_skill01_tips",
+        "14001501_skill02_bisha",
+        "14001501_skill02_tips",
+        "14001501_skill03_tips",
+        "14001501_skill03_01",
+        "14001501_combo01",
+        "14001501_combo02",
+        "11004101_combo01",
+        "sp_tlskill_01_combo1",
+        "sp_tlskill_01_combo2",
+        "sp_tlskill_01_combo3",
+        "sp_tlskill_02_combo1",
+        "sp_tlskill_02_combo2",
+        "sp_tlskill_02_combo3",
+        "sp_tlskill_03_combo1",
+        "sp_tlskill_03_combo2",
+        "sp_tlskill_03_combo3",
+        "sp_tlskill_06_combo1",
+        "sp_tlskill_06_combo2",
+        "sp_tlskill_06_combo3",
+        "sp_tlskill_07_combo1",
+        "sp_tlskill_07_combo2",
+        "sp_tlskill_07_combo3",
+        "sp_tlskill_10_combo1",
+        "sp_tlskill_10_combo2",
+        "sp_tlskill_10_combo3",
+        "sp_tlskill_11_combo1",
+        "sp_tlskill_11_combo2",
+        "sp_tlskill_11_combo3",
+        "sp_tlskill_14_combo1",
+        "sp_tlskill_14_combo2",
+        "sp_tlskill_14_combo3",
+        "sp_tlskill_15_combo1",
+        "sp_tlskill_15_combo3",
+        "sp_tlskill_15_combo2",
+        "sp_tlskill_18_combo1",
+        "sp_tlskill_18_combo2",
+        "sp_tlskill_18_combo2_01",
+        "sp_tlskill_18_combo3",
+        "sp_tlskill_19_combo1",
+        "sp_tlskill_19_combo2",
+        "sp_tlskill_19_combo3",
+        "sp_tlskill_21_combo1",
+        "sp_tlskill_21_combo2",
+        "sp_tlskill_21_combo3_fazhen",
+        "sp_tlskill_21_combo3_yan",
+        "sp_tlskill_21_combo3"
+      ]
+    },
+    {
+      "name": "19001001",
+      "singlePack": 0,
+      "id": 19001001,
+      "effects": [
+        "11015101_attack01",
+        "11015101_skill01",
+        "11015101_attack04"
+      ]
+    },
+    {
+      "name": "19001002",
+      "singlePack": 0,
+      "id": 19001002,
+      "effects": []
+    },
+    {
+      "name": "19001101",
+      "singlePack": 0,
+      "id": 19001101,
+      "effects": [
+        "19001101_attack01",
+        "19001101_combo01",
+        "19001101_combo02"
+      ]
+    },
+    {
+      "name": "19001201",
+      "singlePack": 0,
+      "id": 19001201,
+      "effects": [
+        "19001201_attack01",
+        "19001201_skill01",
+        "19001401_skill01",
+        "19001201_combo01",
+        "19001201_skill_yw"
+      ]
+    },
+    {
+      "name": "19001301",
+      "singlePack": 0,
+      "id": 19001301,
+      "effects": []
+    },
+    {
+      "name": "19001401",
+      "singlePack": 0,
+      "id": 19001401,
+      "effects": [
+        "19006101_attack01",
+        "19006101_attack02",
+        "19006101_attack03",
+        "19001401_skill01",
+        "19001401_skill02",
+        "19001401_skill03",
+        "19001401_skill04"
+      ]
+    },
+    {
+      "name": "19002001",
+      "singlePack": 0,
+      "id": 19002001,
+      "effects": [
+        "19002001_skill01",
+        "19002001_combo01"
+      ]
+    },
+    {
+      "name": "19003001",
+      "singlePack": 0,
+      "id": 19003001,
+      "effects": []
+    },
+    {
+      "name": "19004001",
+      "singlePack": 0,
+      "id": 19004001,
+      "effects": []
+    },
+    {
+      "name": "19005001",
+      "singlePack": 1,
+      "id": 19005001,
+      "effects": [
+        "14001401_combo03",
+        "00000000_skill04"
+      ]
+    },
+    {
+      "name": "19006001",
+      "singlePack": 0,
+      "id": 19006001,
+      "effects": [
+        "00000000_skill05"
+      ]
+    },
+    {
+      "name": "19006101",
+      "singlePack": 0,
+      "id": 19006101,
+      "effects": [
+        "19006101_attack01",
+        "19006101_attack02",
+        "19006101_attack03",
+        "19006101_skill01",
+        "19006101_skill02",
+        "19006101_skill03"
+      ]
+    },
+    {
+      "name": "19007101",
+      "singlePack": 0,
+      "id": 19007101,
+      "effects": [
+        "19007101_attack01",
+        "19007101_attack02",
+        "19007101_attack03"
+      ]
+    },
+    {
+      "name": "19008001",
+      "singlePack": 0,
+      "id": 19008001,
+      "effects": []
+    },
+    {
+      "name": "19009001",
+      "singlePack": 0,
+      "id": 19009001,
+      "effects": [
+        "19009001_attack01",
+        "19009001_skill01",
+        "19009001_combo01"
+      ]
+    },
+    {
+      "name": "19009101",
+      "singlePack": 0,
+      "id": 19009101,
+      "effects": [
+        "19146001_attack01"
+      ]
+    },
+    {
+      "name": "19009201",
+      "singlePack": 0,
+      "id": 19009201,
+      "effects": [
+        "19009201_attack01",
+        "19009201_attack03"
+      ]
+    },
+    {
+      "name": "19011001",
+      "singlePack": 0,
+      "id": 19011001,
+      "effects": [
+        "19011001_skill01",
+        "19011001_combo01"
+      ]
+    },
+    {
+      "name": "19014001",
+      "singlePack": 0,
+      "id": 19014001,
+      "effects": [
+        "19014001_skill01",
+        "19014001_skill02"
+      ]
+    },
+    {
+      "name": "19016001",
+      "singlePack": 0,
+      "id": 19016001,
+      "effects": [
+        "19016001_attack01",
+        "19016001_skill01"
+      ]
+    },
+    {
+      "name": "19017001",
+      "singlePack": 0,
+      "id": 19017001,
+      "effects": []
+    },
+    {
+      "name": "19018001",
+      "singlePack": 0,
+      "id": 19018001,
+      "effects": [
+        "11017101_skill01",
+        "11017101_skill01_hit",
+        "14001301_combo02"
+      ]
+    },
+    {
+      "name": "19024001",
+      "singlePack": 0,
+      "id": 19024001,
+      "effects": [
+        "19024001_attack01",
+        "19024001_skill01",
+        "19024001_combo01"
+      ]
+    },
+    {
+      "name": "19025001",
+      "singlePack": 0,
+      "id": 19025001,
+      "effects": [
+        "19025001_attack01",
+        "19025001_skill01",
+        "19025001_combo01"
+      ]
+    },
+    {
+      "name": "19026001",
+      "singlePack": 0,
+      "id": 19026001,
+      "effects": [
+        "19026001_attack01",
+        "19026001_attack03",
+        "19026001_skill01",
+        "19026001_combo01"
+      ]
+    },
+    {
+      "name": "19027001",
+      "singlePack": 0,
+      "id": 19027001,
+      "effects": [
+        "19027001_skill01",
+        "19027001_combo01"
+      ]
+    },
+    {
+      "name": "19029001",
+      "singlePack": 0,
+      "id": 19029001,
+      "effects": [
+        "19029001_skill01",
+        "19029001_combo01"
+      ]
+    },
+    {
+      "name": "19030001",
+      "singlePack": 0,
+      "id": 19030001,
+      "effects": [
+        "19030001_attack01",
+        "19030001_skill01"
+      ]
+    },
+    {
+      "name": "19031001",
+      "singlePack": 0,
+      "id": 19031001,
+      "effects": [
+        "19031001_attack01",
+        "19031001_skill01",
+        "19031001_combo01"
+      ]
+    },
+    {
+      "name": "19032001",
+      "singlePack": 0,
+      "id": 19032001,
+      "effects": [
+        "19032001_skill01",
+        "19032001_combo01"
+      ]
+    },
+    {
+      "name": "19041001",
+      "singlePack": 0,
+      "id": 19041001,
+      "effects": [
+        "19041001_skill01_01",
+        "19041001_skill01_02",
+        "19041001_skill01_02_front",
+        "19041001_passive01"
+      ]
+    },
+    {
+      "name": "19042001",
+      "singlePack": 0,
+      "id": 19042001,
+      "effects": [
+        "19042001_skill01",
+        "19042001_skill01_front",
+        "19042001_combo02"
+      ]
+    },
+    {
+      "name": "19043001",
+      "singlePack": 0,
+      "id": 19043001,
+      "effects": [
+        "14001501_attack05_01",
+        "14001501_attack05_02"
+      ]
+    },
+    {
+      "name": "19052001",
+      "singlePack": 0,
+      "id": 19052001,
+      "effects": [
+        "19052001_attack01"
+      ]
+    },
+    {
+      "name": "19067001",
+      "singlePack": 0,
+      "id": 19067001,
+      "effects": [
+        "19067001_attack02"
+      ]
+    },
+    {
+      "name": "19068001",
+      "singlePack": 0,
+      "id": 19068001,
+      "effects": [
+        "19068001_attack01"
+      ]
+    },
+    {
+      "name": "19069001",
+      "singlePack": 0,
+      "id": 19069001,
+      "effects": [
+        "11019101_attack01"
+      ]
+    },
+    {
+      "name": "19076001",
+      "singlePack": 0,
+      "id": 19076001,
+      "effects": [
+        "00000000_flw_jinbi",
+        "19076001_attack01",
+        "19076001_skill01_01",
+        "19076001_skill01_02"
+      ]
+    },
+    {
+      "name": "19092001",
+      "singlePack": 0,
+      "id": 19092001,
+      "effects": [
+        "19092001_skill01",
+        "19092001_combo01"
+      ]
+    },
+    {
+      "name": "19093001",
+      "singlePack": 0,
+      "id": 19093001,
+      "effects": [
+        "19093001_attack01",
+        "19093001_attack02",
+        "19093001_attack03",
+        "19093001_skill01",
+        "19093001_combo01"
+      ]
+    },
+    {
+      "name": "19094001",
+      "singlePack": 0,
+      "id": 19094001,
+      "effects": [
+        "11036101_attack01",
+        "11036101_attack02",
+        "19094001_attack03",
+        "00000000_skill02",
+        "11087101_combo01",
+        "00000000_skill05"
+      ]
+    },
+    {
+      "name": "19136001",
+      "singlePack": 0,
+      "id": 19136001,
+      "effects": []
+    },
+    {
+      "name": "19146001",
+      "singlePack": 0,
+      "id": 19146001,
+      "effects": [
+        "19146001_attack01",
+        "19146001_skill01"
+      ]
+    },
+    {
+      "name": "19156001",
+      "singlePack": 0,
+      "id": 19156001,
+      "effects": [
+        "19156001_skill01"
+      ]
+    },
+    {
+      "name": "19172001",
+      "singlePack": 0,
+      "id": 19172001,
+      "effects": [
+        "19172001_attack01",
+        "19172001_skill01",
+        "19172001_skill02",
+        "19172001_combo03",
+        "19172001_combo02",
+        "19172001_skill01_bisha",
+        "19172001_skill01_tips"
+      ]
+    },
+    {
+      "name": "19172101",
+      "singlePack": 0,
+      "id": 19172101,
+      "effects": [
+        "19172101_attack",
+        "19172101_skill01",
+        "19172101_combo01"
+      ]
+    },
+    {
+      "name": "19172201",
+      "singlePack": 0,
+      "id": 19172201,
+      "effects": [
+        "19172201_attack01",
+        "19172201_attack02",
+        "19172201_skill01",
+        "19172201_skill03",
+        "19172201_skill02",
+        "19172201_skill04"
+      ]
+    },
+    {
+      "name": "19173001",
+      "singlePack": 0,
+      "id": 19173001,
+      "effects": [
+        "19173001_attack01",
+        "19173001_attack02",
+        "19173001_attack03",
+        "19173001_skill01",
+        "19173001_combo01"
+      ]
+    },
+    {
+      "name": "19173101",
+      "singlePack": 0,
+      "id": 19173101,
+      "effects": [
+        "19173101_attack01",
+        "19173101_skill01",
+        "19173101_combo01"
+      ]
+    },
+    {
+      "name": "19173201",
+      "singlePack": 0,
+      "id": 19173201,
+      "effects": [
+        "19173201_attack01",
+        "19173201_skill01"
+      ]
+    },
+    {
+      "name": "19176001",
+      "singlePack": 0,
+      "id": 19176001,
+      "effects": []
+    },
+    {
+      "name": "19210001",
+      "singlePack": 0,
+      "id": 19210001,
+      "effects": []
+    },
+    {
+      "name": "19211001",
+      "singlePack": 0,
+      "id": 19211001,
+      "effects": []
+    },
+    {
+      "name": "0",
+      "singlePack": 0,
+      "id": 0,
+      "effects": [
+        "00000000_combo01",
+        "00000000_skillready",
+        "00000000_skillready_kill",
+        "mjskill_000",
+        "Combat_End_03",
+        "00000000_attack01",
+        "00000000_attack02",
+        "00000000_attack03",
+        "00000000_attack04",
+        "00000000_attack05",
+        "00000000_attack10",
+        "00000000_attack11",
+        "00000000_common_jieyin",
+        "00000000_skill01_01",
+        "00000000_skill01_02",
+        "00000000_skill01_022",
+        "00000000_skill01_05",
+        "00000000_skill03",
+        "00000000_skill03_03",
+        "00000000_skill04_hit",
+        "11001101_combo01",
+        "11002101_combo02",
+        "11003101_combo01",
+        "11008101_attack01",
+        "11016101_combo02_01",
+        "11016101_combo02_02",
+        "11021101_combo01",
+        "11034101_attack04_01",
+        "11041101_passive01",
+        "14001101_passive01",
+        "14001301_combo03",
+        "19007101_combo01",
+        "19007101_skill02",
+        "11002801_passive01_buff",
+        "11016101_buff02",
+        "11002701_passive01",
+        "11061401_passive01",
+        "11031401_passive01",
+        "_callupShareEffect1",
+        "_callupShareEffect2",
+        "_callupShareEffect3",
+        "_callupShareEffect4",
+        "_callupShareEffect5",
+        "_callupShareEffect6",
+        "_callupShareEffect7",
+        "_callupShareEffect8",
+        "_callupShareEffect9",
+        "_callupShareEffect10",
+        "_callupShareEffect11",
+        "_callupShareEffect12",
+        "_callupShareEffect13",
+        "_callupShareEffect14",
+        "_callupShareEffect15",
+        "_callupShareEffect16",
+        "_callupShareEffect17",
+        "_callupShareEffect18",
+        "_callupShareEffect19",
+        "_callupShareEffect20",
+        "UI_tlszh_13002002",
+        "UI_tlszh_13003002",
+        "UI_tlszh_13004002",
+        "UI_tlszh_13009002",
+        "00000000_lang_shousi",
+        "sp_tlskill_22_combo1",
+        "sp_tlskill_22_combo1_FX",
+        "sp_tlskill_22_combo2",
+        "sp_tlskill_22_combo2_FX",
+        "sp_tlskill_22_combo3",
+        "sp_tlskill_22_combo3_FX",
+        "sp_tlskill_24_combo1",
+        "sp_tlskill_24_combo1_0",
+        "sp_tlskill_24_combo2",
+        "sp_tlskill_24_combo2_0",
+        "sp_tlskill_24_combo3",
+        "sp_tlskill_24_combo3_0",
+        "SP_tlskill_25_combo3",
+        "SP_tlskill_25_combo2",
+        "SP_tlskill_25_combo1",
+        "SP_tlskill_26_combo1",
+        "SP_tlskill_26_combo2",
+        "SP_tlskill_26_combo3",
+        "sp_tlskill_27_combo1",
+        "sp_tlskill_27_combo3",
+        "sp_tlskill_28_combo1",
+        "sp_tlskill_28_combo2",
+        "sp_tlskill_28_combo3",
+        "mjskill_001",
+        "mjskill_002",
+        "mjskill_002_hit",
+        "mjskill_004",
+        "mjskill_003",
+        "mjskill_009",
+        "mjskill_009_hit",
+        "mjskill_010_hit",
+        "mjskill_012_hit",
+        "mjskill_011_hit",
+        "mjskill_005",
+        "mjskill_007",
+        "mjskill_006",
+        "mjskill_008",
+        "sp_tlskill_29_combo1",
+        "sp_tlskill_29_combo2",
+        "sp_tlskill_29_combo3",
+        "sp_tlskill_30_combo1_01",
+        "sp_tlskill_30_combo1_02",
+        "sp_tlskill_30_combo2_02",
+        "sp_tlskill_30_combo3_02",
+        "sp_tlskill_31_combo1",
+        "sp_tlskill_31_combo2",
+        "sp_tlskill_31_combo3",
+        "sp_tlskill_32_combo1",
+        "sp_tlskill_32_combo2",
+        "sp_tlskill_32_combo3",
+        "mjskill_013",
+        "mjskill_013_hit",
+        "mjskill_014",
+        "mjskill_015",
+        "00000000_buff_dianran",
+        "00000000_buff_jiansu",
+        "00000000_buff_mumang",
+        "00000000_buff_mabi",
+        "00000000_buff_hunluan",
+        "00000000_buff_fengxue",
+        "00000000_buff_shuimian",
+        "00000000_buff_zhongdu_02",
+        "00000000_buff_biaoji_02",
+        "00000000_buff_xuruo",
+        "00000000_buff_zhongdu_01",
+        "00000000_buff_commonup",
+        "00000000_buff_commondown",
+        "11023101_skill02_01",
+        "11023101_skill02_02",
+        "11023101_skill02_03",
+        "00000000_buff_tianzhao",
+        "11039201_passive01",
+        "11039201_passive02",
+        "11039201_passive03",
+        "00000000_skill10",
+        "00000000_skill11",
+        "00000000_skill12",
+        "00000000_buff_jinghua01",
+        "00000000_buff_jinghua02",
+        "11016101_buff",
+        "00000000_buff_aoyilengque",
+        "00000000_buff_aoyilengque_1",
+        "00000000_buff_revive",
+        "00000000_buff_zengyi_loop",
+        "00000000_skill_chufa",
+        "00000000_buff_zhengyan",
+        "00000000_buff_biyan",
+        "00000000_buff_jingu",
+        "00000000_buff_jinghua01_bai",
+        "00000000_buff_rongjie",
+        "11117101_buff01",
+        "00000000_skill07",
+        "00000000_skill09",
+        "00000000_skill08",
+        "00000000_buff_tuanzang",
+        "00000000_buff_chaofeng",
+        "00000000_buff_zhongdu_03",
+        "00000000_buff_shazhidun",
+        "00000000_buff_linhunxuruo",
+        "00000000_buff_yixienazhi",
+        "00000000_buff_biaoji_03",
+        "00000000_buff_gaobaoji",
+        "00000000_buff_niantu02",
+        "00000000_buff_niantu01",
+        "00000000_buff_wuqi01",
+        "00000000_buff_jiuping_04",
+        "00000000_buff_jiuping_01",
+        "00000000_buff_jiuping_03",
+        "00000000_buff_suolian_01",
+        "00000000_buff_suolian_02",
+        "00000000_buff_jixue",
+        "00000000_buff_zhanling",
+        "00000000_buff_yanling",
+        "11064101_skill02_01",
+        "00000000_buff_yxnm01",
+        "00000000_buff_wanhuatong",
+        "00000000_buff_shazi01",
+        "00000000_buff_jinshafengyin01",
+        "00000000_buff_fenchen",
+        "00000000_buff_fengxue02",
+        "00000000_buff_rendaolingyu",
+        "11033201_skill01_buff",
+        "00000000_buff_shufu",
+        "00000000_buff_gandian",
+        "11120201_skill01_buff",
+        "11143101_buff",
+        "13001001_skill01_02",
+        "11070101_fx_passive01",
+        "00000000_buff_yxnm02"
+      ]
+    }
+  ]

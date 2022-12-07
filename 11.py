@@ -6,6 +6,7 @@ import shutil, os
 import xlrd, xlwt
 from xlutils.copy import copy
 import glob
+import json
 
 # def mycopyfile(srcfile, dstpath, name):  # 复制函数
 #     for root, dirs, files in os.walk(dstpath):
@@ -23,21 +24,21 @@ import glob
 #     mycopyfile(srcfile, dst_dir, 'meta')  # 复制文件
 
 
-def search(startplace, overplace, name):
-    filelist = os.listdir(startplace)
-    for file in filelist:
-        file_name = os.path.join(startplace, file)
-        if os.path.isfile(file_name) and name in file and "unity3d" not in file and not os.path.exists(os.path.join(overplace, file)):
-            if not os.path.exists(overplace):
-             os.makedirs(overplace)  # 创建路径
-            shutil.copy(file_name, overplace)
-            # send2trash.send2trash(file_name)
-            print(file_name)
-        elif os.path.isdir(file_name):
-            search(file_name, overplace, name)
-
-
-search(r'F:\火影素材', r'F:\name', 'Name')
+# def search(startplace, overplace, name):
+#     filelist = os.listdir(startplace)
+#     for file in filelist:
+#         file_name = os.path.join(startplace, file)
+#         if os.path.isfile(file_name) and name in file and "unity3d" not in file and not os.path.exists(os.path.join(overplace, file)):
+#             if not os.path.exists(overplace):
+#              os.makedirs(overplace)  # 创建路径
+#             shutil.copy(file_name, overplace)
+#             # send2trash.send2trash(file_name)
+#             print(file_name)
+#         elif os.path.isdir(file_name):
+#             search(file_name, overplace, name)
+#
+#
+# search(r'F:\火影素材', r'F:\name', 'Name')
 
 # file_address = r'E:\unity工程\call\Assets\ninjaimage_11001101\ExportedProject\Assets\TextAsset'
 # for a, aa, line in os.walk(file_address):
@@ -83,3 +84,27 @@ search(r'F:\火影素材', r'F:\name', 'Name')
 #             #     NewFileName(file_name, excel)
 #
 # NewFileName(r'F:\lihui\lihui', r'E:\biaoge\121.xlsx')
+
+
+
+def check(name,singlePack,id,effects):
+    with open("ninjas.json", mode="r", encoding="utf-8") as f:
+        text = f.read()
+    ninjas = json.loads(text)
+    return ninjas
+# def NewFileName(file_address, excel):
+#     #读取sheet
+#     sheet = xlrd.open_workbook(excel).sheet_by_index(0)
+#     for file in os.listdir(file_address):
+#         for line in range(0, int(sheet.nrows)):
+
+list = check('name', 'singlePack', 'id', 'effects')
+a = 0
+wb = xlrd.open_workbook(r'C:\Users\Administrator\Desktop\11.xlsx')
+for name in list:
+    print(name["name"])
+    nwb = copy(wb)
+    nws = nwb.get_sheet(1)
+    nws.write(a, 0, name["name"])
+    nwb.save(r'C:\Users\Administrator\Desktop\11.xlsx')
+    a += 1
