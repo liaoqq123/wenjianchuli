@@ -1,7 +1,9 @@
 import tkinter as tk
 import ttkbootstrap as ttk
+import xlrd
 from ttkbootstrap.constants import *
 from tkinter import messagebox
+import os
 
 class ProcessFrame(tk.Frame):
     def __init__(self, root):
@@ -110,16 +112,14 @@ class ProcessFrame(tk.Frame):
         ttk.Button(self.button_show, text='确认修改', command=self.DefineDataButton).pack(side=tk.LEFT, padx=5)
 
     def DefineDataButton(self):
-        if isinstance(self.address.get(), str) != True\
-             or isinstance(self.excel.get(), str) != True\
-             or isinstance(self.start.get(), int) != True\
-             or isinstance(self.target.get(), int) != True:
-            messagebox.showwarning(title="警告", message="别NM瞎JB输入")
-
-        elif isinstance(self.address.get(), str) == True\
-              and isinstance(self.excel.get(), str) == True\
-              and isinstance(self.start.get(), int) == True\
-              and isinstance(self.target.get(), int) == True:
+        excel_address = os.path.join(self.address.get(), self.excel.get())
+        excel_xlsx = excel_address + ".xlsx"
+        excel_xls = excel_address + ".xls"
+        if not os.path.exists(self.address.get()):
+            messagebox.showwarning(title="警告", message="请输入正确地址")
+        elif not os.path.exists(excel_xlsx) and not os.path.exists(excel_xls):
+            messagebox.showwarning(title="警告", message="没有找到表格文件")
+        else:
 
             self.address_data = self.address.get()
             self.excel_data = self.excel.get()
