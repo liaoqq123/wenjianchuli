@@ -4,21 +4,22 @@ import xlrd
 from ttkbootstrap.constants import *
 from tkinter import messagebox
 import os
+from Method import Method
 
 class ProcessFrame(tk.Frame):
     def __init__(self, root):
         super().__init__(root)
 
-        self.start_address = tk.StringVar()
-        self.over_address = tk.StringVar()
-        self.excel_address = tk.StringVar()
+        self.start_path = tk.StringVar()
+        self.over_path = tk.StringVar()
+        self.excel_path = tk.StringVar()
         self.excel = tk.StringVar()
         self.start = tk.StringVar()
         self.target = tk.StringVar()
 
-        self.start_address_data = ""
-        self.over_address_data = ""
-        self.excel_address_data = ""
+        self.start_path_data = ""
+        self.over_path_data = ""
+        self.excel_path_data = ""
         self.excel_data = ""
         self.start_data = ""
         self.target_data = ""
@@ -36,19 +37,19 @@ class ProcessFrame(tk.Frame):
         self.target_show = tk.Frame(self.process_show)
         self.target_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.target_show, text="文件起始地址:").pack(side=tk.LEFT)
-        ttk.Label(self.target_show, text=self.start_address_data).pack(side=tk.RIGHT)
+        ttk.Label(self.target_show, text=self.start_path_data).pack(side=tk.RIGHT)
 
         # 目标地址显示
         self.target_show = tk.Frame(self.process_show)
         self.target_show.pack(side=TOP, anchor=tk.W, pady=10)
         ttk.Label(self.target_show, text="文件目标地址:").pack(side=tk.LEFT)
-        ttk.Label(self.target_show, text=self.over_address_data).pack(side=tk.RIGHT)
+        ttk.Label(self.target_show, text=self.over_path_data).pack(side=tk.RIGHT)
 
         #表格地址显示
         self.address_show = tk.Frame(self.process_show)
         self.address_show.pack(side=TOP, anchor=tk.W, pady=10)
-        ttk.Label(self.address_show, text="     文件地址:").pack(side=tk.LEFT)
-        ttk.Label(self.address_show, text=self.excel_address_data).pack(side=tk.RIGHT)
+        ttk.Label(self.address_show, text="表格文件地址:").pack(side=tk.LEFT)
+        ttk.Label(self.address_show, text=self.excel_path_data).pack(side=tk.RIGHT)
 
         #表格名称显示
         self.excel_show = tk.Frame(self.process_show)
@@ -77,7 +78,7 @@ class ProcessFrame(tk.Frame):
         self.button_show = ttk.Frame(self.process_show)
         self.button_show.pack(side=BOTTOM, anchor=tk.S, pady=60)
         ttk.Button(self.button_show, text='文件删除').pack(side=tk.LEFT, padx=5)
-        ttk.Button(self.button_show, text='文件复制').pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='文件复制', command=self.CpoyButton).pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件移动').pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件改名').pack(side=tk.LEFT, padx=5)
 
@@ -86,13 +87,22 @@ class ProcessFrame(tk.Frame):
 
     def InputDataButton(self):
 
-        self.excel_address.set(self.excel_address_data)
+        self.excel_path.set(self.excel_path_data)
         self.excel.set(self.excel_data)
         self.start.set(self.start_data)
         self.target.set(self.target_data)
 
         self.process_show.pack_forget()
         self.process_input.pack()
+
+    def CpoyButton(self):
+        excel = self.excel_data + ".xlsx"
+        excel_path = os.path.join(self.excel_path_data, excel)
+        excel1 = xlrd.open_workbook(excel_path).sheet_by_index(0)
+        for line in range(0, excel1.nrows):
+            file_name = excel1.cell(line, int(self.start_data)).value
+            Method.CopyMethod(self, self.start_path_data, self.over_path_data, str(file_name))
+            print(file_name)
 
 
     def ProcessInputPage(self):
@@ -101,20 +111,20 @@ class ProcessFrame(tk.Frame):
         #文件地址输入
         self.address_show = tk.Frame(self.process_input)
         self.address_show.pack(side=TOP, anchor=tk.W, pady=10)
-        ttk.Label(self.address_show, text="   文件地址:").pack(side=tk.LEFT)
-        ttk.Entry(self.address_show, text=self.start_address).pack(side=tk.RIGHT)
+        ttk.Label(self.address_show, text="文件起始地址:").pack(side=tk.LEFT)
+        ttk.Entry(self.address_show, text=self.start_path).pack(side=tk.RIGHT)
 
         #文件地址输入
         self.address_show = tk.Frame(self.process_input)
         self.address_show.pack(side=TOP, anchor=tk.W, pady=10)
-        ttk.Label(self.address_show, text="   文件地址:").pack(side=tk.LEFT)
-        ttk.Entry(self.address_show, text=self.over_address).pack(side=tk.RIGHT)
+        ttk.Label(self.address_show, text="文件目标地址:").pack(side=tk.LEFT)
+        ttk.Entry(self.address_show, text=self.over_path).pack(side=tk.RIGHT)
 
         #文件地址输入
         self.address_show = tk.Frame(self.process_input)
         self.address_show.pack(side=TOP, anchor=tk.W, pady=10)
-        ttk.Label(self.address_show, text="   文件地址:").pack(side=tk.LEFT)
-        ttk.Entry(self.address_show, text=self.excel_address).pack(side=tk.RIGHT)
+        ttk.Label(self.address_show, text="表格文件地址:").pack(side=tk.LEFT)
+        ttk.Entry(self.address_show, text=self.excel_path).pack(side=tk.RIGHT)
 
         #表格名称输入
         self.excel_show = tk.Frame(self.process_input)
@@ -140,12 +150,12 @@ class ProcessFrame(tk.Frame):
         ttk.Button(self.button_show, text='确认修改', command=self.DefineDataButton).pack(side=tk.LEFT, padx=5)
 
     def DefineDataButton(self):
-        temporary_excel_address = os.path.join(self.excel_address.get(), self.excel.get())
-        excel_xlsx = temporary_excel_address + ".xlsx"
-        excel_xls = temporary_excel_address + ".xls"
-        if not os.path.exists(self.start_address.get())\
-                or not os.path.exists(self.over_address.get())\
-                or not os.path.exists(self.excel_address.get()):
+        excel_address = os.path.join(self.excel_path.get(), self.excel.get())
+        excel_xlsx = excel_address + ".xlsx"
+        excel_xls = excel_address + ".xls"
+        if not os.path.exists(self.start_path.get())\
+                or not os.path.exists(self.over_path.get())\
+                or not os.path.exists(self.excel_path.get()):
             messagebox.showwarning(title="警告", message="请输入正确地址")
         elif not os.path.exists(excel_xlsx) and not os.path.exists(excel_xls):
             messagebox.showwarning(title="警告", message="没有找到表格文件")
@@ -153,9 +163,9 @@ class ProcessFrame(tk.Frame):
             messagebox.showwarning(title="警告", message="请输入正确的行列数据")
         else:
 
-            self.start_address_data = self.start_address.get()
-            self.over_address_data = self.over_address.get()
-            self.excel_address_data = self.excel_address.get()
+            self.start_path_data = self.start_path.get()
+            self.over_path_data = self.over_path.get()
+            self.excel_path_data = self.excel_path.get()
             self.excel_data = self.excel.get()
             self.start_data = self.start.get()
             self.target_data = self.target.get()
