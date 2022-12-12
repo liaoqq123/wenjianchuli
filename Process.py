@@ -102,7 +102,6 @@ class ProcessFrame(tk.Frame):
         for line in range(0, excel1.nrows):
             file_name = excel1.cell(line, int(self.start_data)).value
             Method.CopyMethod(self, self.start_path_data, self.over_path_data, str(file_name))
-            print(file_name)
 
 
     def ProcessInputPage(self):
