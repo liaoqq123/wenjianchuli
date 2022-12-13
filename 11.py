@@ -100,11 +100,12 @@ def check(name,singlePack,id,effects):
 
 list = check('name', 'singlePack', 'id', 'effects')
 a = 0
-wb = xlrd.open_workbook(r'C:\Users\Administrator\Desktop\11.xlsx')
-for name in list:
-    print(name["name"])
-    nwb = copy(wb)
-    nws = nwb.get_sheet(1)
-    nws.write(a, 0, name["name"])
-    nwb.save(r'C:\Users\Administrator\Desktop\11.xlsx')
-    a += 1
+print(check('name', 'singlePack', 'id', 'effects'))
+# wb = xlrd.open_workbook(r'C:\Users\Administrator\Desktop\11.xlsx')
+# for name in list:
+#     print(name["name"])
+#     nwb = copy(wb)
+#     nws = nwb.get_sheet(1)
+#     nws.write(a, 0, name["name"])
+#     nwb.save(r'C:\Users\Administrator\Desktop\11.xlsx')
+#     a += 1

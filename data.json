@@ -1,10 +1,1 @@
-[
-  {
-      "文件起始地址": "",
-      "文件目标地址": "",
-      "表格文件地址": "",
-      "表格名称":"",
-      "起始数据列": "",
-      "目标数据列":""
-  }
-]
+{"start_path": "C:\\Users\\Administrator\\Desktop\\123", "target_path": "C:\\Users\\Administrator\\Desktop\\234", "excel": "C:\\Users\\Administrator\\Desktop\\345\\11.xlsx", "start": "0", "target": "1"}
