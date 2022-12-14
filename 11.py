@@ -110,9 +110,11 @@ import json
 #     nwb.save(r'C:\Users\Administrator\Desktop\11.xlsx')
 #     a += 1
 
-datanames = os.listdir(r"C:\Users\Administrator\Desktop\234")
-list = []
-for i in datanames:
-    if os.path.isfile(os.path.join(r"C:\Users\Administrator\Desktop\234", i)):
-        list.append(i)
-print(list)
+# datanames = os.listdir(r"C:\Users\Administrator\Desktop\234")
+# list = []
+# for i in datanames:
+#     if os.path.isfile(os.path.join(r"C:\Users\Administrator\Desktop\234", i)):
+#         list.append(i)
+# print(list)
+a = [155, 1234, 234, 553, 524]
+print(a[155])

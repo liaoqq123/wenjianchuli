@@ -17,13 +17,13 @@ class ProcessFrame(tk.Frame):
         self.start = tk.StringVar()
         self.target = tk.StringVar()
 
-        self.ProcessInputPage()
-        self.ProcessShowPage()
+        self.pocessInputPage()
+        self.processShowPage()
 
     # 数据及操作页面显示
-    def ProcessShowPage(self):
+    def processShowPage(self):
         # 读取json文件数据
-        self.list = Method.ReadData(self, "start_path", "target_path", "excel", "start", "target")
+        self.list = Method.readData(self, "start_path", "target_path", "excel", "start", "target")
         # 读取字典数据
         self.start_path_data = self.list.get("start_path")
         self.target_path_data = self.list.get("target_path")
@@ -66,20 +66,20 @@ class ProcessFrame(tk.Frame):
         # 修改数据显示
         self.modify_show = tk.Frame(self.process_show)
         self.modify_show.pack(side=TOP, pady=10)
-        ttk.Button(self.modify_show, text='修改数据', command=self.InputDataButton).pack()
+        ttk.Button(self.modify_show, text='修改数据', command=self.inputDataButton).pack()
 
         # 文件操作按钮
         self.button_show = ttk.Frame(self.process_show)
         self.button_show.pack(side=BOTTOM, anchor=tk.S, pady=60)
-        ttk.Button(self.button_show, text='文件读取').pack(side=tk.LEFT, padx=5)
-        ttk.Button(self.button_show, text='文件复制', command=self.CpoyButton).pack(side=tk.LEFT, padx=5)
-        ttk.Button(self.button_show, text='文件移动', command=self.MoveButton).pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='文件读取', command=self.readButton).pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='文件复制', command=self.cpoyButton).pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='文件移动', command=self.moveButton).pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件改名').pack(side=tk.LEFT, padx=5)
-        ttk.Button(self.button_show, text='文件删除', command=self.RemoveButton).pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='文件删除', command=self.removeButton).pack(side=tk.LEFT, padx=5)
 
         self.process_show.pack()
 
-    def InputDataButton(self):
+    def inputDataButton(self):
         # 输入框读取数据
         self.start_path.set(self.start_path_data)
         self.target_path.set(self.target_path_data)
@@ -90,7 +90,10 @@ class ProcessFrame(tk.Frame):
         self.process_show.pack_forget()
         self.process_input.pack()
 
-    def CpoyButton(self):
+    def readButton(self):
+        Method.readMethod(self, self.list.get("start_path"), self.list.get("excel"), self.list.get("start"))
+
+    def cpoyButton(self):
         # 打开表格
         excel_data = self.excel_data
         sheet_data = xlrd.open_workbook(excel_data).sheet_by_index(0)
@@ -100,11 +103,11 @@ class ProcessFrame(tk.Frame):
             # 判断起始地址以及目标地址文件是否存在
             if os.path.exists(os.path.join(self.start_path_data, file_name)) and not os.path.exists(
                     os.path.join(self.target_path_data, file_name)):
-                Method.CopyMethod(self, self.start_path_data, self.target_path_data, str(file_name))
+                Method.copyMethod(self, self.start_path_data, self.target_path_data, str(file_name))
             else:
                 pass
 
-    def MoveButton(self):
+    def moveButton(self):
         # 打开表格
         excel_data = self.excel_data
         sheet_data = xlrd.open_workbook(excel_data).sheet_by_index(0)
@@ -114,11 +117,11 @@ class ProcessFrame(tk.Frame):
             # 判断起始地址以及目标地址文件是否存在
             if os.path.exists(os.path.join(self.start_path_data, file_name)) and not os.path.exists(
                     os.path.join(self.target_path_data, file_name)):
-                Method.MoveMethod(self, self.start_path_data, self.target_path_data, str(file_name))
+                Method.moveMethod(self, self.start_path_data, self.target_path_data, str(file_name))
             else:
                 pass
 
-    def RemoveButton(self):
+    def removeButton(self):
         # 打开表格
         excel_data = self.excel_data
         sheet_data = xlrd.open_workbook(excel_data).sheet_by_index(0)
@@ -127,11 +130,11 @@ class ProcessFrame(tk.Frame):
             file_name = sheet_data.cell(line, int(self.start_data)).value
             # 判断起始地址以及目标地址文件是否存在
             if os.path.exists(os.path.join(self.start_path_data, file_name)):
-                Method.RemoveMethod(self, self.start_path_data, str(file_name))
+                Method.removeMethod(self, self.start_path_data, str(file_name))
             else:
                 pass
 
-    def ProcessInputPage(self):
+    def pocessInputPage(self):
         self.process_input = ttk.Frame(self)
 
         # 文件地址输入
@@ -167,9 +170,9 @@ class ProcessFrame(tk.Frame):
         # 确认修改按钮
         self.button_show = tk.Frame(self.process_input)
         self.button_show.pack(side=TOP, anchor=tk.S, pady=10)
-        ttk.Button(self.button_show, text='确认修改', command=self.DefineDataButton).pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='确认修改', command=self.defineDataButton).pack(side=tk.LEFT, padx=5)
 
-    def DefineDataButton(self):
+    def defineDataButton(self):
         print(self.excel.get())
         if not os.path.exists(self.start_path.get()) \
                 or not os.path.exists(self.target_path.get()):
@@ -187,8 +190,8 @@ class ProcessFrame(tk.Frame):
             self.list['start'] = self.start.get()
             self.list['target'] = self.target.get()
             # 将字典写入json
-            Method.StoreData(self, self.list)
+            Method.storeData(self, self.list)
 
-            self.ProcessShowPage()
+            self.processShowPage()
             self.process_show.pack()
             self.process_input.pack_forget()

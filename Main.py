@@ -2,7 +2,6 @@ import tkinter as tk
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from Process import ProcessFrame
-# from Modify import ModifyFrame
 
 
 
@@ -11,9 +10,9 @@ class MainPage:
         self.window = master
         self.window.title('文件处理器 1.0.0')
         self.window.geometry('960x540')
-        self.top()
+        self.root()
 
-    def top(self):
+    def root(self):
         #封装页面导入
         self.Process = ProcessFrame(self.window)
         self.Process.pack()
