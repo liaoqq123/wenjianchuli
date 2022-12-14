@@ -12,6 +12,9 @@ class Method:
         self.ReadData()
         self.StoreData()
 
+    def ReadMethod(self, start_path, excel, start):
+        file_all = os.listdir(start_path)
+
     #文件复制方法
     def CopyMethod(self, start_path, over_path, file_name):
         for root, dirs, files in os.walk(start_path):

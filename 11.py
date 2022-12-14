@@ -87,20 +87,20 @@ import json
 
 
 
-def check(name,singlePack,id,effects):
-    with open("ninjas.json", mode="r", encoding="utf-8") as f:
-        text = f.read()
-    ninjas = json.loads(text)
-    return ninjas
-# def NewFileName(file_address, excel):
-#     #读取sheet
-#     sheet = xlrd.open_workbook(excel).sheet_by_index(0)
-#     for file in os.listdir(file_address):
-#         for line in range(0, int(sheet.nrows)):
-
-list = check('name', 'singlePack', 'id', 'effects')
-a = 0
-print(check('name', 'singlePack', 'id', 'effects'))
+# def check(name,singlePack,id,effects):
+#     with open("ninjas.json", mode="r", encoding="utf-8") as f:
+#         text = f.read()
+#     ninjas = json.loads(text)
+#     return ninjas
+# # def NewFileName(file_address, excel):
+# #     #读取sheet
+# #     sheet = xlrd.open_workbook(excel).sheet_by_index(0)
+# #     for file in os.listdir(file_address):
+# #         for line in range(0, int(sheet.nrows)):
+#
+# list = check('name', 'singlePack', 'id', 'effects')
+# a = 0
+# print(check('name', 'singlePack', 'id', 'effects'))
 # wb = xlrd.open_workbook(r'C:\Users\Administrator\Desktop\11.xlsx')
 # for name in list:
 #     print(name["name"])
@@ -109,3 +109,10 @@ print(check('name', 'singlePack', 'id', 'effects'))
 #     nws.write(a, 0, name["name"])
 #     nwb.save(r'C:\Users\Administrator\Desktop\11.xlsx')
 #     a += 1
+
+datanames = os.listdir(r"C:\Users\Administrator\Desktop\234")
+list = []
+for i in datanames:
+    if os.path.isfile(os.path.join(r"C:\Users\Administrator\Desktop\234", i)):
+        list.append(i)
+print(list)
