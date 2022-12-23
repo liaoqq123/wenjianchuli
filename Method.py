@@ -50,7 +50,6 @@ class Method:
         print(list)
         for file in os.listdir(start_path):
             if file in list:
-
                 start_name = sheet.cell_value(target_line, start)
                 target_name = str(int(sheet.cell_value(target_line, target)))
                 file_name = os.path.join(start_path, file)
