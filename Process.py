@@ -74,7 +74,7 @@ class ProcessFrame(tk.Frame):
         ttk.Button(self.button_show, text='文件读取', command=self.readButton).pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件复制', command=self.cpoyButton).pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件移动', command=self.moveButton).pack(side=tk.LEFT, padx=5)
-        ttk.Button(self.button_show, text='文件改名').pack(side=tk.LEFT, padx=5)
+        ttk.Button(self.button_show, text='文件改名', command=self.renamingButton).pack(side=tk.LEFT, padx=5)
         ttk.Button(self.button_show, text='文件删除', command=self.removeButton).pack(side=tk.LEFT, padx=5)
 
         self.process_show.pack()
@@ -99,7 +99,7 @@ class ProcessFrame(tk.Frame):
         sheet_data = xlrd.open_workbook(excel_data).sheet_by_index(0)
         # 循环遍历表格文件名
         for line in range(0, sheet_data.nrows):
-            file_name = sheet_data.cell(line, int(self.start_data)).value
+            file_name = sheet_data.cell(line, int(self.start_data) - 1).value
             # 判断起始地址以及目标地址文件是否存在
             if os.path.exists(os.path.join(self.start_path_data, file_name)) and not os.path.exists(
                     os.path.join(self.target_path_data, file_name)):
@@ -113,7 +113,7 @@ class ProcessFrame(tk.Frame):
         sheet_data = xlrd.open_workbook(excel_data).sheet_by_index(0)
         # 循环遍历表格文件名
         for line in range(0, sheet_data.nrows):
-            file_name = sheet_data.cell(line, int(self.start_data)).value
+            file_name = sheet_data.cell(line, int(self.start_data) - 1).value
             # 判断起始地址以及目标地址文件是否存在
             if os.path.exists(os.path.join(self.start_path_data, file_name)) and not os.path.exists(
                     os.path.join(self.target_path_data, file_name)):
@@ -121,13 +121,16 @@ class ProcessFrame(tk.Frame):
             else:
                 pass
 
+    def renamingButton(self):
+        Method.renamingMethod(self, self.start_path_data, self.excel_data, self.start_data, self.target_data)
+
     def removeButton(self):
         # 打开表格
         excel_data = self.excel_data
         sheet_data = xlrd.open_workbook(excel_data).sheet_by_index(0)
         # 循环遍历表格文件名
         for line in range(0, sheet_data.nrows):
-            file_name = sheet_data.cell(line, int(self.start_data)).value
+            file_name = sheet_data.cell(line, int(self.start_data) - 1).value
             # 判断起始地址以及目标地址文件是否存在
             if os.path.exists(os.path.join(self.start_path_data, file_name)):
                 Method.removeMethod(self, self.start_path_data, str(file_name))
