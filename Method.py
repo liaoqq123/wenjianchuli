@@ -46,9 +46,15 @@ class Method:
         for file in os.listdir(start_path):
             for line in range(0, int(sheet.nrows)):
                 if isinstance(sheet.cell_value(line, int(start)-1), float):
-                    start_name = str(sheet.cell_value(line, int(start) - 1))
+                    start_name = str(int(sheet.cell_value(line, int(start) - 1)))
                     target_name = sheet.cell_value(line, int(target) - 1)
-                if sheet.cell_value(line, int(start)-1) in file:
+                elif isinstance(sheet.cell_value(line, int(target)-1), float):
+                    start_name = sheet.cell_value(line, int(start) - 1)
+                    target_name = str(int(sheet.cell_value(line, int(target) - 1)))
+                else:
+                    start_name = sheet.cell_value(line, int(start) - 1)
+                    target_name = sheet.cell_value(line, int(target) - 1)
+                if start_name in file:
                     file_name = os.path.join(start_path, file)
                     # 判断是否文件 以及行数据是否小于表格行数
                     if os.path.isfile(file_name):
