@@ -64,7 +64,7 @@ class Method:
                         newFileName = file.replace(file, newName)
                         # 重命名
                         os.rename(os.path.join(start_path, file), os.path.join(start_path, newFileName))
-                        print(target_name)
+                        print(os.path.join(start_path, newFileName))
                 else:
                     pass
 
