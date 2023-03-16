@@ -16,6 +16,7 @@ class ProcessFrame(tk.Frame):
         self.excel = tk.StringVar()
         self.start = tk.StringVar()
         self.target = tk.StringVar()
+        self.check_var = tk.BooleanVar()
 
         self.pocessInputPage()
         self.processShowPage()
@@ -68,6 +69,10 @@ class ProcessFrame(tk.Frame):
         self.modify_show.pack(side=TOP, pady=10)
         ttk.Button(self.modify_show, text='修改数据', command=self.inputDataButton).pack()
 
+        self.check_show = ttk.Frame(self.process_show)
+        self.check_show.pack(side=BOTTOM, anchor=tk.N, pady=60)
+        ttk.Checkbutton(self.check_show, text="目录下所有文件", variable=self.check_var).pack(side=LEFT, padx=10)
+
         # 文件操作按钮
         self.button_show = ttk.Frame(self.process_show)
         self.button_show.pack(side=BOTTOM, anchor=tk.S, pady=60)
@@ -92,6 +97,7 @@ class ProcessFrame(tk.Frame):
 
     def readButton(self):
         Method.readMethod(self, self.list.get("start_path"), self.list.get("excel"), self.list.get("start"))
+
 
     def cpoyButton(self):
         # 打开表格
