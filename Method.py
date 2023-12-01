@@ -1,8 +1,9 @@
 import os
-import xlrd
+
+import openpyxl
+from openpyxl import Workbook, load_workbook
 import shutil
 import json
-from xlutils.copy import copy
 import re
 
 
@@ -15,17 +16,18 @@ class Method:
         self.readData()
         self.storeData()
 
-    def readMethod(self, start_path, excel_path, start):
+    #文件写入方法
+    def readMethod(self, start_path, excel_path, start, sheetname):
         file_all = os.listdir(start_path)
-        excel = xlrd.open_workbook(str(excel_path))
-        line = 0
-        new_excel = copy(excel)
+        excel = load_workbook(str(excel_path))
+        sheet = excel[sheetname]
+        line = 1
         for file in file_all:
             if os.path.isfile(os.path.join(start_path, file)):
-                new_sheet = new_excel.get_sheet(0)
-                new_sheet.write(line, int(start), file)
+                sheet.cell(line, int(start)).value = file
                 line += 1
-        new_excel.save(excel_path)
+                print(file)
+                excel.save(excel_path)
 
     #文件复制方法
     def copyMethod(self, start_path, over_path, file_name):
@@ -40,20 +42,15 @@ class Method:
             if os.path.isfile(os.path.join(start_path, file_name)) and file_name in files:
                 shutil.move(os.path.join(start_path, file_name), os.path.join(over_path, file_name))  # 移动文件
                 print("%s" % (os.path.join(over_path, file_name)))
-
-    def renamingMethod(self, start_path, excel_path, start, target):
-        sheet = xlrd.open_workbook(excel_path).sheet_by_index(0)
+    #文件改名方法
+    def renamingMethod(self, start_path, excel_path, start, target, sheetname):
+        sheet = load_workbook(excel_path)[sheetname]
+        print(type(sheet.max_row))
         for file in os.listdir(start_path):
-            for line in range(0, int(sheet.nrows)):
-                if isinstance(sheet.cell_value(line, int(start)-1), float):
-                    start_name = str(int(sheet.cell_value(line, int(start) - 1)))
-                    target_name = sheet.cell_value(line, int(target) - 1)
-                elif isinstance(sheet.cell_value(line, int(target)-1), float):
-                    start_name = sheet.cell_value(line, int(start) - 1)
-                    target_name = str(int(sheet.cell_value(line, int(target) - 1)))
-                else:
-                    start_name = sheet.cell_value(line, int(start) - 1)
-                    target_name = sheet.cell_value(line, int(target) - 1)
+            for line in range(1, sheet.max_row + 1):
+                # 将单元格内容转换为文本
+                start_name = str(sheet.cell(line, start).value)
+                target_name = str(sheet.cell(line, target).value)
                 if start_name in file:
                     file_name = os.path.join(start_path, file)
                     # 判断是否文件 以及行数据是否小于表格行数
