@@ -45,12 +45,11 @@ class Method:
     #文件改名方法
     def renamingMethod(self, start_path, excel_path, start, target, sheetname):
         sheet = load_workbook(excel_path)[sheetname]
-        print(type(sheet.max_row))
         for file in os.listdir(start_path):
             for line in range(1, sheet.max_row + 1):
                 # 将单元格内容转换为文本
-                start_name = str(sheet.cell(line, start).value)
-                target_name = str(sheet.cell(line, target).value)
+                start_name = str(sheet.cell(line, int(start)).value)
+                target_name = str(sheet.cell(line, int(target)).value)
                 if start_name in file:
                     file_name = os.path.join(start_path, file)
                     # 判断是否文件 以及行数据是否小于表格行数
