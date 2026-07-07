@@ -1,1 +1,12 @@
-{"start_path": "D:\\SVN\\graphic_new\\icon\\jingshi", "target_path": "D:\\SVN\\graphic_new\\icon\\jingshi", "excel": "C:\\Users\\Administrator\\Desktop\\22\\11.xlsx", "start": "1", "target": "2", "sheetname": "Sheet1"}
+{
+  "start_path": "D:\\xy\\data\\dev",
+  "target_path": "D:\\新建文件夹 (3)",
+  "excel": "D:\\新建文件夹 (2)\\新建 Microsoft Excel 工作表.xlsx",
+  "start": "1",
+  "target": "3",
+  "file_column": "1",
+  "original_column": "2",
+  "new_column": "3",
+  "output_column": "4",
+  "sheetname": "Sheet1"
+}
