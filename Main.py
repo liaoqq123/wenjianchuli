@@ -2,11 +2,14 @@ import importlib.util
 import os
 import sys
 from pathlib import Path
-import tkinter as tk
 
 
 def ensure_project_environment():
-    if importlib.util.find_spec("ttkbootstrap") is not None:
+    if getattr(sys, "frozen", False):
+        return
+
+    # 双击启动时优先切到项目自带虚拟环境，避免系统 Python 缺少 PySide6。
+    if importlib.util.find_spec("PySide6") is not None:
         return
 
     project_dir = Path(__file__).resolve().parent
@@ -23,30 +26,28 @@ def ensure_project_environment():
         os.execv(str(python_path), [str(python_path), *sys.argv])
 
     raise ModuleNotFoundError(
-        "没有找到 ttkbootstrap。请使用 run.bat 启动，或先运行：python -m pip install -r requirements.txt"
+        "没有找到 PySide6。请使用 run.bat 启动，或先运行：python -m pip install -r requirements.txt"
     )
 
 
 ensure_project_environment()
 
-import ttkbootstrap as ttk
+# 环境确认后再导入界面库，确保缺依赖时能先重启到虚拟环境。
+from PySide6.QtWidgets import QApplication, QMainWindow
 
 from Process import ProcessFrame
 
 
-class MainPage:
-    def __init__(self, master: tk.Tk):
-        self.window = master
-        self.window.title("文件处理器 1.0.0")
-        self.window.geometry("960x540")
-        self.root()
-
-    def root(self):
-        self.process = ProcessFrame(self.window)
-        self.process.pack(fill=tk.BOTH, expand=True)
+class MainPage(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("文件处理器 1.0.0")
+        self.resize(960, 540)
+        self.setCentralWidget(ProcessFrame(self))
 
 
 if __name__ == "__main__":
-    window = ttk.Window(themename="flatly")
-    MainPage(window)
-    window.mainloop()
+    app = QApplication(sys.argv)
+    window = MainPage()
+    window.show()
+    sys.exit(app.exec())

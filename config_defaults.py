@@ -1,0 +1,13 @@
+# 首次启动或本机未保存配置时使用这组默认值。
+DEFAULT_CONFIG = {
+    "start_path": "D:\\xy\\data\\dev",
+    "target_path": "D:\\新建文件夹 (3)",
+    "excel": "D:\\新建文件夹 (2)\\新建 Microsoft Excel 工作表.xlsx",
+    "start": "1",
+    "target": "3",
+    "file_column": "1",
+    "original_column": "2",
+    "new_column": "3",
+    "output_column": "4",
+    "sheetname": "Sheet1",
+}

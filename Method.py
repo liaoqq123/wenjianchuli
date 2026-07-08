@@ -1,29 +1,29 @@
-import json
+import re
 import shutil
 from pathlib import Path
 
 from openpyxl import load_workbook
-from openpyxl.utils import get_column_letter
+from openpyxl.utils import column_index_from_string, get_column_letter
+from PySide6.QtCore import QSettings
+
+from config_defaults import DEFAULT_CONFIG
 
 
-DATA_FILE = Path(__file__).with_name("data.json")
-DEFAULT_CONFIG = {
-    "start_path": "",
-    "target_path": "",
-    "excel": "",
-    "start": "1",
-    "target": "2",
-    "file_column": "1",
-    "original_column": "2",
-    "new_column": "3",
-    "output_column": "4",
-    "sheetname": "Sheet1",
-}
+SETTINGS_ORG = "WenjianChuli"
+SETTINGS_APP = "FileProcessor"
+# 只处理 A1、$A$1 这类单元格引用，供简单拼接公式解析使用。
+CELL_REFERENCE_RE = re.compile(r"^\$?([A-Za-z]{1,3})\$?(\d+)$")
+
+
+def _settings():
+    # QSettings 会把用户选择的路径和列号保存到当前系统用户配置里。
+    return QSettings(SETTINGS_ORG, SETTINGS_APP)
 
 
 class Method:
     @staticmethod
     def _safe_child_path(start_path, file_name):
+        # 防止表格里的文件名写成绝对路径或跳出起始目录。
         start_dir = Path(start_path).resolve()
         file_text = str(file_name).strip()
         if not file_text:
@@ -60,17 +60,123 @@ class Method:
         return Path(str(file_name).strip()).name
 
     @staticmethod
-    def _read_name_pairs(excel_path, start, target, sheetname):
-        workbook = load_workbook(excel_path)
+    def _split_concat_formula(expression):
+        # 拆分 Excel 的 & 拼接公式，同时避开引号里的 & 字符。
+        parts = []
+        current = []
+        in_quote = False
+        index = 0
+
+        while index < len(expression):
+            char = expression[index]
+            current.append(char)
+
+            if char == '"':
+                if in_quote and index + 1 < len(expression) and expression[index + 1] == '"':
+                    index += 1
+                    current.append(expression[index])
+                else:
+                    in_quote = not in_quote
+            elif char == "&" and not in_quote:
+                current.pop()
+                parts.append("".join(current))
+                current = []
+
+            index += 1
+
+        parts.append("".join(current))
+        return parts
+
+    @staticmethod
+    def _cell_value(sheet, values_sheet, row, column, seen=None):
+        # 优先自己计算本工具生成的拼接公式，算不了时再读取 Excel 缓存值。
+        value = sheet.cell(row, column).value
+        if isinstance(value, str) and value.startswith("="):
+            evaluated_value = Method._evaluate_concat_formula(value, sheet, values_sheet, seen or set())
+            if evaluated_value is not None:
+                return evaluated_value
+
+            return values_sheet.cell(row, column).value
+
+        cached_value = values_sheet.cell(row, column).value
+        if cached_value is not None:
+            return cached_value
+
+        if not isinstance(value, str) or not value.startswith("="):
+            return value
+
+        return None
+
+    @staticmethod
+    def _evaluate_concat_formula(formula, sheet, values_sheet, seen):
+        # 这里只支持“单元格 & 文本 & 单元格”这类简单公式，足够覆盖文件名拼接。
+        parts = Method._split_concat_formula(formula[1:].strip())
+        values = []
+
+        for part in parts:
+            token = part.strip()
+            if len(token) >= 2 and token[0] == '"' and token[-1] == '"':
+                values.append(token[1:-1].replace('""', '"'))
+                continue
+
+            match = CELL_REFERENCE_RE.match(token)
+            if not match:
+                return None
+
+            column = column_index_from_string(match.group(1))
+            row = int(match.group(2))
+            cell_key = (sheet.title, row, column)
+            # 避免公式互相引用时无限递归。
+            if cell_key in seen:
+                return None
+
+            seen.add(cell_key)
+            value = Method._cell_value(sheet, values_sheet, row, column, seen)
+            seen.remove(cell_key)
+            values.append("" if value is None else str(value))
+
+        return "".join(values)
+
+    @staticmethod
+    def readColumnValues(excel_path, column, sheetname):
+        # 复制、移动、删除会复用这里读取“文件名列”的有效文件名。
+        workbook = load_workbook(excel_path, data_only=False)
+        values_workbook = load_workbook(excel_path, data_only=True)
         try:
             sheet = workbook[sheetname]
+            values_sheet = values_workbook[sheetname]
+            target_column = int(column)
+            values = []
+
+            for line in range(2, sheet.max_row + 1):
+                value = Method._cell_value(sheet, values_sheet, line, target_column)
+                if value is None:
+                    continue
+
+                text = str(value).strip()
+                if text:
+                    values.append(text)
+
+            return values
+        finally:
+            workbook.close()
+            values_workbook.close()
+
+    @staticmethod
+    def _read_name_pairs(excel_path, start, target, sheetname):
+        # 改名操作按两列读取映射关系：旧内容 -> 新内容。
+        workbook = load_workbook(excel_path, data_only=False)
+        values_workbook = load_workbook(excel_path, data_only=True)
+        try:
+            sheet = workbook[sheetname]
+            values_sheet = values_workbook[sheetname]
             start_column = int(start)
             target_column = int(target)
             name_pairs = []
 
             for line in range(2, sheet.max_row + 1):
-                start_value = sheet.cell(line, start_column).value
-                target_value = sheet.cell(line, target_column).value
+                start_value = Method._cell_value(sheet, values_sheet, line, start_column)
+                target_value = Method._cell_value(sheet, values_sheet, line, target_column)
                 if start_value is None or target_value is None:
                     continue
 
@@ -82,9 +188,11 @@ class Method:
             return name_pairs
         finally:
             workbook.close()
+            values_workbook.close()
 
     @staticmethod
     def _rename_selected_paths(selected_paths, start_path, name_pairs, include_subdirs=False):
+        # 支持两种匹配：文件名内局部替换，或包含子目录时按相对路径完整匹配。
         renamed_paths = []
         start_dir = Path(start_path)
 
@@ -115,6 +223,7 @@ class Method:
 
     @staticmethod
     def _find_files(start_path, file_name, include_subdirs=False):
+        # 先按表格里的相对路径精确查找，再按文件名在子目录中搜索。
         start_dir = Path(start_path).resolve()
         file_text = str(file_name).strip()
         if not file_text:
@@ -131,6 +240,7 @@ class Method:
 
     @staticmethod
     def _copy_or_move(start_path, over_path, file_name, include_subdirs=False, move=False):
+        # 复制和移动共享同一套定位逻辑，包含子目录时保留相对目录结构。
         start_dir = Path(start_path).resolve()
         target_dir = Path(over_path)
         handled_files = []
@@ -155,6 +265,11 @@ class Method:
 
         return handled_files
 
+    @staticmethod
+    def _target_files_by_name(target_path, file_name):
+        target_dir = Path(target_path)
+        return [path for path in target_dir.rglob("*") if path.is_file() and path.name == file_name]
+
     # 文件写入方法
     @staticmethod
     def readMethod(
@@ -177,20 +292,18 @@ class Method:
             start_dir = Path(start_path)
             count = 0
 
+            # 只清空本工具负责的四列，保留表格里其它辅助列。
             for column in {file_column, original_column, new_column, output_column}:
                 for line in range(2, sheet.max_row + 1):
                     sheet.cell(line, column).value = None
 
             for row_index, file_path in enumerate(Method.getSelectedFiles(start_dir, include_subdirs), start=2):
-                if include_subdirs:
-                    file_name = str(file_path.relative_to(start_dir))
-                else:
-                    file_name = file_path.name
-
                 original_name = file_path.stem
+                original_name_cell = f"{get_column_letter(original_column)}{row_index}"
                 new_name_cell = f"{get_column_letter(new_column)}{row_index}"
 
-                sheet.cell(row_index, file_column).value = file_name
+                # 文件名列和写入列都写公式，便于用户只改名称部分时自动保留原后缀。
+                sheet.cell(row_index, file_column).value = f'={original_name_cell}&"{file_path.suffix}"'
                 sheet.cell(row_index, original_column).value = original_name
                 sheet.cell(row_index, new_column).value = original_name
                 sheet.cell(row_index, output_column).value = f'={new_name_cell}&"{file_path.suffix}"'
@@ -212,6 +325,7 @@ class Method:
             new_column = int(new_column)
             output_column = int(output_column)
 
+            # 初始化会重置整张工作表，用于重新生成标准标题和空表。
             for row in sheet.iter_rows():
                 for cell in row:
                     cell.value = None
@@ -234,6 +348,29 @@ class Method:
     @staticmethod
     def moveMethod(start_path, over_path, file_name, include_subdirs=False):
         return Method._copy_or_move(start_path, over_path, file_name, include_subdirs, move=True)
+
+    # 文件替换方法
+    @staticmethod
+    def replaceMethod(start_path, over_path, file_name, include_subdirs=False):
+        source_files = Method._find_files(start_path, file_name, include_subdirs)
+        if len(source_files) > 1:
+            raise ValueError(f"起始地址中找到多个同名源文件，无法判断使用哪一个替换：{file_name}")
+
+        if not source_files:
+            return []
+
+        source_file = source_files[0]
+        source_path = source_file.resolve()
+        replaced_files = []
+
+        for target_file in Method._target_files_by_name(over_path, source_file.name):
+            if target_file.resolve() == source_path:
+                continue
+
+            shutil.copy2(source_file, target_file)
+            replaced_files.append(str(target_file))
+
+        return replaced_files
 
     # 文件改名方法
     @staticmethod
@@ -261,29 +398,33 @@ class Method:
 
         return removed_files
 
-    # 读取json文件数据
+    # 读取本机缓存数据
     @staticmethod
     def readData():
-        if not DATA_FILE.exists():
-            return DEFAULT_CONFIG.copy()
+        settings = _settings()
+        config = DEFAULT_CONFIG.copy()
 
-        try:
-            with DATA_FILE.open(mode="r", encoding="utf-8") as json_file:
-                data = json.load(json_file)
-        except (OSError, json.JSONDecodeError):
-            return DEFAULT_CONFIG.copy()
+        for key, default_value in DEFAULT_CONFIG.items():
+            value = settings.value(key, default_value)
+            config[key] = default_value if value is None else str(value)
 
-        config = {**DEFAULT_CONFIG, **data}
         config["file_column"] = str(config.get("file_column") or config.get("start") or "1")
         config["original_column"] = str(config.get("original_column") or config.get("target") or "2")
         config["new_column"] = str(config.get("new_column") or "3")
         config["output_column"] = str(config.get("output_column") or "4")
+        # 兼容旧配置字段：start/target 仍保持为文件名列/新名称列。
         config["start"] = config["file_column"]
         config["target"] = config["new_column"]
         return config
 
-    # 写入数据至json文件
+    # 写入本机缓存数据
     @staticmethod
     def storeData(data):
-        with DATA_FILE.open("w", encoding="utf-8") as json_file:
-            json.dump(data, json_file, ensure_ascii=False, indent=2)
+        settings = _settings()
+        config = {**DEFAULT_CONFIG, **data}
+
+        for key in DEFAULT_CONFIG:
+            value = config.get(key, "")
+            settings.setValue(key, "" if value is None else str(value))
+
+        settings.sync()
